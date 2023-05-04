@@ -6,12 +6,12 @@
    <elementGuidId>5f6ad5d2-c4d8-4aba-8899-c3d9fa04ec1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#contact-m9he0twddpj-phoneNumber</value>
+         <key>XPATH</key>
+         <value>//span[text()='Phone Number']/../../..//input[@id='contact-nm8r96et5l-phoneNumber']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='contact-m9he0twddpj-phoneNumber']</value>
+         <key>CSS</key>
+         <value>#contact-m9he0twddpj-phoneNumber</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b6b3d6e6-945a-419e-8e75-358883c358d5</webElementGuid>
+      <webElementGuid>884ee286-bae7-4ab1-a2c7-c543372886be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>contact-m9he0twddpj-phoneNumber</value>
-      <webElementGuid>df976787-1707-486f-909d-b65896d23e4d</webElementGuid>
+      <webElementGuid>5919f231-d3f9-41ed-9f95-9ac8936facd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9238ae9c-fc27-41a1-82c7-bddbd329762c</webElementGuid>
+      <webElementGuid>df53a711-d73f-4e63-b7f4-300e37babb4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicInput__input jut__InputField__input</value>
-      <webElementGuid>90b4103c-2835-41ab-8462-75bf5c3f9fb0</webElementGuid>
+      <webElementGuid>22b51ae3-cb61-4aca-b17b-33464e6aec05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>2cf122ba-4b7a-4272-b09e-e8cbd648c356</webElementGuid>
+      <webElementGuid>aa656242-a3ea-4164-bece-2765e2c3c426</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>638f660c-63e6-4117-b40b-e668330a645f</webElementGuid>
+      <webElementGuid>575bc2bd-28ff-4e3f-983f-6c1dc881b08d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>contact-m9he0twddpj-phoneNumber_1440013438</value>
-      <webElementGuid>e3473431-0dd3-4ca0-853f-9d5de8e8f114</webElementGuid>
+      <webElementGuid>368257ca-9cf2-43b3-a82a-01d0b4744b31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>555-555-5555</value>
-      <webElementGuid>9365d981-8a95-46c1-a1aa-1bd29c543213</webElementGuid>
+      <webElementGuid>a89cff08-0fd5-4e41-b4e6-343bb55baec0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>555-555-5555</value>
-      <webElementGuid>0ccf9f05-7e62-4f7f-936b-fcf6a42ae43b</webElementGuid>
+      <webElementGuid>277f1c11-dc47-47b6-b83e-866838b40f4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contact-m9he0twddpj-phoneNumber&quot;)</value>
-      <webElementGuid>ef7ae3a6-a973-41ef-b83d-e8bdab63be33</webElementGuid>
+      <webElementGuid>48af4b4f-bb43-4f7f-a966-49f5653bc4a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='contact-m9he0twddpj-phoneNumber']</value>
-      <webElementGuid>4c86e269-2b91-4b81-a3ff-3b6ce00a54e2</webElementGuid>
+      <webElementGuid>63544047-05f2-4fbb-ae4e-c8b40144aea6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[4]/div[2]/div/div[2]/div[2]/div/div/div[5]/div/div[2]/div[2]/input</value>
-      <webElementGuid>1c5a25de-7cf1-40d5-836c-aa40002ad76a</webElementGuid>
+      <webElementGuid>c12d6f6f-d28c-4142-9005-9d08df9ddf85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div[2]/input</value>
-      <webElementGuid>5ad57abe-ae76-4867-bc45-fdb3af4a9715</webElementGuid>
+      <webElementGuid>f719f037-c311-440e-98f6-565a948c62b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'contact-m9he0twddpj-phoneNumber' and @type = 'text' and @placeholder = '555-555-5555']</value>
-      <webElementGuid>47d504c4-c88b-44ea-b417-86c8007e0938</webElementGuid>
+      <webElementGuid>37cedc11-a453-4ab0-bc55-abc355ae8f05</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

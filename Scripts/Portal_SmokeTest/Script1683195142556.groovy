@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://agencyportal.qa1.hastingsmutual.com/Accounts')
 
 WebUI.setText(findTestObject('Object Repository/Page_Hastings Mutual Insurance Company - Login/input_UserName_UserName'), 
@@ -37,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Quote/div_Start a New Busines
 
 WebUI.click(findTestObject('Object Repository/Page_Quote/svg_Select_css-19bqh2r'))
 
-WebUI.click(findTestObject('Object Repository/Page_Quote/path'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Quote/path'))
 
 WebUI.click(findTestObject('Object Repository/Page_Quote/div_Workers Compensation'))
 
@@ -64,7 +66,11 @@ WebUI.setText(findTestObject('Object Repository/Page_HMIC Agency Portal - Worker
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/li_404 East Woodlawn Avenue, Hastings, MI, USA'))
 
-WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/body_You need to enable JavaScript to run t_517c10'))
+WebUI.waitForPageLoad(10)
+
+WebUI.mouseOver(findTestObject('Portal_AccountInfo_Dropdown_ProducerCode'))
+
+WebUI.click(findTestObject('Portal_AccountInfo_Dropdown_ProducerCode'))
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/div_0002059-0000-HOUSE House Code'))
 
@@ -72,12 +78,22 @@ WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers 
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/span_Continue'))
 
-WebUI.setText(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/input_FEIN_contact-3ox9ujv960h-feinId'), 
-    '12-3456778')
+WebUI.mouseOver(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/input_FEIN_contact-3ox9ujv960h-feinId'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/input_FEIN_contact-3ox9ujv960h-feinId'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/input_FEIN_contact-3ox9ujv960h-feinId'), 
+    Keys.chord('123456789'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/div_Search For An Existing ContactOrg typeS_f6a704'))
 
-WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/body_You need to enable JavaScript to run t_517c10'))
+WebUI.click(findTestObject('Portal_PolicyDetails_Dropdown_OrgType'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/body_You need to enable JavaScript to run t_517c10'))
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/div_Corporation'))
 
@@ -88,7 +104,7 @@ WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers 
 WebUI.setText(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_b41d06/input_maximum number of employees at this l_34d630'), 
     '10')
 
-WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_b41d06/body_You need to enable JavaScript to run t_517c10'))
+WebUI.click(findTestObject('Portal_Locations_TextBox_WorkClassification'))
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_b41d06/div_0011 - Farm  Market Or Truck'))
 
@@ -135,8 +151,8 @@ WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers 
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_37dc0f/div_Contact TypeCompanyContact RoleBoth'))
 
-WebUI.setText(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_37dc0f/input_Phone Number_contact-m9he0twddpj-phoneNumber'), 
-    '8144231211')
+WebUI.sendKeys(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_37dc0f/input_Phone Number_contact-m9he0twddpj-phoneNumber'), 
+    Keys.chord('8144231211'))
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_37dc0f/input_First Name_firstName'))
 

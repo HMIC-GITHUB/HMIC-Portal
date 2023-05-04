@@ -6,12 +6,11 @@
    <elementGuidId>96c65b81-41e4-403c-947e-cd880279bdcc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[text()='State']/../../..//div[contains(@class,'DropdownSelectField')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='termValue--sn4b4eh4jj-wrapper']/div/div[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6c9253fd-e7cf-4d08-82d4-4f91e798962c</webElementGuid>
+      <webElementGuid>65981961-5765-4b06-829b-1bd2ea9fcf36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1wy0on6</value>
-      <webElementGuid>73fbb2a8-0e42-445d-a58f-0574dcccdfc5</webElementGuid>
+      <webElementGuid>1b60e2b8-25c1-40a4-93df-d52c15cd00f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;termValue--sn4b4eh4jj-wrapper&quot;)/div[@class=&quot;jut__GenericSelectControl__control jut__GenericSelectControl__controlFocused&quot;]/div[@class=&quot;css-1wy0on6&quot;]</value>
-      <webElementGuid>8efe6f07-8e7e-463e-99b0-b286419557d0</webElementGuid>
+      <webElementGuid>29f2aff8-2acf-4896-befe-e6c855031301</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='termValue--sn4b4eh4jj-wrapper']/div/div[2]</value>
-      <webElementGuid>9dd923b1-919c-4998-805f-538d2a1de490</webElementGuid>
+      <webElementGuid>a90e2e45-9a3b-47d5-a23c-b095cec268dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please Select'])[1]/following::div[1]</value>
-      <webElementGuid>0dfb8991-3072-4ee9-a2d6-7ca7ec839a8d</webElementGuid>
+      <webElementGuid>9abc3af2-d92c-4182-816c-186b6c45439e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::div[7]</value>
-      <webElementGuid>14cad759-7c1d-44e4-9e66-f48e0714b5bf</webElementGuid>
+      <webElementGuid>40b2d4f8-7cbe-443c-9bb7-29dab983b606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[2]</value>
-      <webElementGuid>de1113fc-cda0-4b32-a3f1-5138f0f7a4e5</webElementGuid>
+      <webElementGuid>752c8d0a-6830-465c-81e7-b8f223487578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/preceding::div[4]</value>
-      <webElementGuid>c04b2021-d5e5-4bf5-b7a7-66531ecb22cb</webElementGuid>
+      <webElementGuid>d0822e99-4588-44b2-8a44-e2d629c86731</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div[2]</value>
-      <webElementGuid>22f5740a-6489-43b8-aade-4d87662c6f7f</webElementGuid>
+      <webElementGuid>f77cf54f-17a4-4286-be82-259685cd563f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
