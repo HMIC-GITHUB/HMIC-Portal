@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Continue</name>
+   <tag></tag>
+   <elementGuidId>a298300e-b07a-4f56-930e-93140933399e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.dynamicButton__button.jut__Button__button.jut__Button__primary.colorAccent > span > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Name'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4796e4b7-b7a8-47f6-a402-e2d644576c3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>081b5206-7b36-4c4e-9621-aea81b3dfa21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;gw-branding-agencyportal&quot;]/body[@class=&quot;themeRoot dynamicRoot ReactModal__Body--open&quot;]/div[@class=&quot;ReactModalPortal&quot;]/div[@class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open jut__ModalNext__overlay&quot;]/div[@class=&quot;ReactModal__Content ReactModal__Content--after-open dynamicModal__modal jut__ModalNext__modal dynamicModal__modal&quot;]/div[@class=&quot;jut__Grid__grid jut__Grid__vgapNone jut__Grid__hgapMedium&quot;]/div[@class=&quot;jut__ModalFooter__modalFooter&quot;]/div[@class=&quot;jut__Flex__gwFlex jut__Flex__gwGapMedium jut__Flex__gwJustifyContentCenter jut__Flex__gwWrap jut__Flex__gwDirectionRow&quot;]/button[@class=&quot;dynamicButton__button jut__Button__button jut__Button__primary colorAccent&quot;]/span[1]/span[1]</value>
+      <webElementGuid>16f73392-5217-4b6f-8fab-2c3ef40520d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Name'])[1]/following::span[2]</value>
+      <webElementGuid>b2d20406-bd0f-4797-91f2-1c67a8161f8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account #'])[1]/following::span[2]</value>
+      <webElementGuid>bd304bef-e1e8-43ba-8a08-9ccc8368ce73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
+      <webElementGuid>683d92f6-e1f7-400b-848f-d3c543935527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/button/span/span</value>
+      <webElementGuid>7f20c709-f908-4d0a-a428-c3d7d973e8f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Continue' or . = 'Continue')]</value>
+      <webElementGuid>998fd161-c7d2-4e6c-a75e-2a7771e60416</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

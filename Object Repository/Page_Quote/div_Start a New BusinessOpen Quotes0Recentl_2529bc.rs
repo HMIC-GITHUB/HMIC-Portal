@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Start a New BusinessOpen Quotes0Recentl_2529bc</name>
+   <tag></tag>
+   <elementGuidId>fd07a927-e13c-4b75-8d0e-9bb8806a1734</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.gw-tiles-aligner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainContainer']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>db081f2e-449f-4332-8e73-bd8aaa4c5258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-tiles-aligner</value>
+      <webElementGuid>3acfa5ee-f45c-48ad-ab31-0d33be12c264</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Start a New BusinessOpen Quotes0Recently Submitted0</value>
+      <webElementGuid>992d39f6-4d52-48b2-ac12-d29be15baa96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContainer&quot;)/div[@class=&quot;gw-tiles gw-tiles-large&quot;]/div[@class=&quot;gw-tiles-aligner&quot;]</value>
+      <webElementGuid>a9732163-a86e-452f-9553-1dded2522be8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainContainer']/div/div</value>
+      <webElementGuid>05bcc009-082b-45f5-bdfe-bc912b23a9ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Business Dashboard'])[1]/following::div[1]</value>
+      <webElementGuid>906bfba2-e843-4583-aeee-f1e2e7234f3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HELP'])[4]/following::div[9]</value>
+      <webElementGuid>26c8a543-a849-4a67-b7fe-452a25317292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/div/div/div/div</value>
+      <webElementGuid>83cf022f-462e-444c-82f1-0e216c8944bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Start a New BusinessOpen Quotes0Recently Submitted0' or . = 'Start a New BusinessOpen Quotes0Recently Submitted0')]</value>
+      <webElementGuid>1638da76-c4f1-4ebe-921c-44d3bbd33fad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

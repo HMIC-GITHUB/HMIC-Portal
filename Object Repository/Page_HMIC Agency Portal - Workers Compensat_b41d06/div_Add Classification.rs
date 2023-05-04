@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add Classification</name>
+   <tag></tag>
+   <elementGuidId>58164dd2-5814-4d08-aa76-562220f7cf0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.InputList_footer__3xTo_</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div[3]/div/div/div/div[3]/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>faf8a6f7-ea54-44c2-9475-e49e9219eb8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>InputList_footer__3xTo_</value>
+      <webElementGuid>44af89ed-1084-421b-a010-49ce75070eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Classification</value>
+      <webElementGuid>25d16699-1d88-4ebb-9b10-554c72be5cd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[1]/div[1]/div[3]/div[@class=&quot;dynamicAccordion__hmicAccordion Accordion_hmicAccordion__jCv3x Accordion_withFrame__QP6s1&quot;]/div[@class=&quot;InputList_editMode__3LmDi InputList_cardContainer__1PHmi&quot;]/div[@class=&quot;AddEmployeesLocation_inputForm__1oq_X&quot;]/div[3]/div[4]/div[@class=&quot;InputList_footer__3xTo_&quot;]</value>
+      <webElementGuid>6b227e7a-c704-4914-b9bf-8737b1e9f6f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div[3]/div/div/div/div[3]/div[4]/div[2]</value>
+      <webElementGuid>07e3b298-cf3f-4619-889e-eb1436737d63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::div[40]</value>
+      <webElementGuid>56a43daf-f9cd-4c70-803a-2a6099c3cac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <webElementGuid>7f76bec9-f6f8-4108-9d78-773b725ff754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[4]/div[2]</value>
+      <webElementGuid>87b6ebdd-475e-49f3-bad5-e59316cae4fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add Classification' or . = 'Add Classification')]</value>
+      <webElementGuid>4245a762-7871-4a42-a93d-965d2bf42740</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

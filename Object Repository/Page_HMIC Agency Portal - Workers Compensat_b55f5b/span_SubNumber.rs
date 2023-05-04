@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_SubNumber</name>
+   <tag></tag>
+   <elementGuidId>4ae803ec-e30d-419b-8624-d56b77174c37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.colorVibrantBlue</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for your submission'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9910ed5e-5439-41e4-ba46-460a0dcc021c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>colorVibrantBlue</value>
+      <webElementGuid>3c34503e-714c-4454-afd9-51bc9985d25a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 0061965660 </value>
+      <webElementGuid>b3b780d5-8a7f-49c5-a744-61dd825f0e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;gw-branding-agencyportal&quot;]/body[@class=&quot;themeRoot dynamicRoot ReactModal__Body--open&quot;]/div[@class=&quot;ReactModalPortal&quot;]/div[@class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open jut__ModalNext__overlay&quot;]/div[@class=&quot;ReactModal__Content ReactModal__Content--after-open dynamicModal__modal jut__ModalNext__modal dynamicModal__modal&quot;]/div[@class=&quot;jut__Grid__grid jut__Grid__vgapNone jut__Grid__hgapMedium&quot;]/div[@class=&quot;dynamicModalBody__modalBody jut__ModalBody__modalBody&quot;]/div[@class=&quot;jut__Grid__grid jut__Grid__vgapMedium jut__Grid__hgapMedium jut__Grid__justifyContentCenter Modal_body__Foxsx&quot;]/div[@class=&quot;QuoteConfirmationModal_body__1iuQZ smallBody&quot;]/p[@class=&quot;bodyBold&quot;]/span[@class=&quot;colorVibrantBlue&quot;]</value>
+      <webElementGuid>e59b1a60-ec3f-48de-9b91-b153a8c61e8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you for your submission'])[1]/following::span[1]</value>
+      <webElementGuid>5a478636-c07f-4081-8476-2eba95268c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next: Payment'])[2]/following::span[2]</value>
+      <webElementGuid>c03af988-a379-4b93-b84d-e4c95d4e8f42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::span[1]</value>
+      <webElementGuid>58e9d278-091c-4f52-853d-cf464c0ee9ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0061965660']/parent::*</value>
+      <webElementGuid>8e6c86e0-ea53-465b-b33c-023f88d3d7a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/span</value>
+      <webElementGuid>ad3e41fa-4fec-4c95-ba1f-9e2b15541d27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' 0061965660 ' or . = ' 0061965660 ')]</value>
+      <webElementGuid>b7ad41d0-8816-41b8-afc3-0b6e245175dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

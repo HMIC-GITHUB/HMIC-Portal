@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Search For An Existing ContactOrg typeS_f6a704</name>
+   <tag></tag>
+   <elementGuidId>a32024d9-6ffe-456f-9414-63bf95c2dc87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.InputList_editMode__3LmDi.InputList_editContainer__1i18K</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div[5]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9895abcd-6179-4339-a6da-2726370b9190</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>InputList_editMode__3LmDi InputList_editContainer__1i18K</value>
+      <webElementGuid>d16767a2-7951-4a96-b3fc-f0e41404d9d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search For An Existing Contact*Org typeSelect*Company Name*FEIN*AddressAddress 2Address 3*City*StateMichigan*ZIP CodeEmail AddressPhone NumberCancelSave</value>
+      <webElementGuid>17a499dd-a244-4b3e-9b69-8e5bc1a2fc35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[1]/div[1]/div[@class=&quot;PolicyDetails_section__3JvsD&quot;]/div[@class=&quot;FieldSet_container__3odpU&quot;]/div[1]/div[@class=&quot;InputList_editMode__3LmDi InputList_editContainer__1i18K&quot;]</value>
+      <webElementGuid>d65cf164-fb2a-44c8-b948-9d564bbf909b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div[5]/div/div/div[2]</value>
+      <webElementGuid>ae29fbef-61fc-438a-94e2-bae4ead86164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Company (Primary)'])[1]/following::div[2]</value>
+      <webElementGuid>f38d46e8-3105-41e7-9c75-afe94b1eeb06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SSN / FEIN'])[1]/following::div[2]</value>
+      <webElementGuid>4716475d-080c-41a7-953e-17b16fa76966</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[2]</value>
+      <webElementGuid>8d162c40-8505-4f70-9c32-19bcae43ebc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Search For An Existing Contact*Org typeSelect*Company Name*FEIN*AddressAddress 2Address 3*City*StateMichigan*ZIP CodeEmail AddressPhone NumberCancelSave' or . = 'Search For An Existing Contact*Org typeSelect*Company Name*FEIN*AddressAddress 2Address 3*City*StateMichigan*ZIP CodeEmail AddressPhone NumberCancelSave')]</value>
+      <webElementGuid>84d0c889-cfb8-4c66-ba95-a036dede0e5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
