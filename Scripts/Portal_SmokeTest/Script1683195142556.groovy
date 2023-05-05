@@ -39,8 +39,6 @@ WebUI.click(findTestObject('Object Repository/Page_Quote/div_Start a New Busines
 
 WebUI.click(findTestObject('Object Repository/Page_Quote/svg_Select_css-19bqh2r'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Quote/path'))
-
 WebUI.click(findTestObject('Object Repository/Page_Quote/div_Workers Compensation'))
 
 WebUI.click(findTestObject('Object Repository/Page_Quote/button_Next'))
@@ -92,8 +90,6 @@ WebUI.waitForPageLoad(10)
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/div_Search For An Existing ContactOrg typeS_f6a704'))
 
 WebUI.click(findTestObject('Portal_PolicyDetails_Dropdown_OrgType'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/body_You need to enable JavaScript to run t_517c10'))
 
 WebUI.click(findTestObject('Object Repository/Page_HMIC Agency Portal - Workers Compensat_867d40/div_Corporation'))
 
