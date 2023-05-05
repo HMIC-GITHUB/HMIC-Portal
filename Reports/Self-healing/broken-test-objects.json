@@ -1,3 +1,54 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Quote/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Quote/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/div_Billing",
+      "brokenLocator": "//div[@id\u003d\u0027contact-6lozjf4f77r-address-255fzycdiw9-addressType-wrapper\u0027]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Address Type\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/div_Billing_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/input_Address_addressTypeAhead_contact-6loz_8085f5",
+      "brokenLocator": "//input[@id\u003d\u0027addressTypeAhead_contact-6lozjf4f77r-address-255fzycdiw9-googleAddressAPI\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/input_Address_addressTypeAhead_contact-6loz_8085f5_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/li_404 East Woodlawn Avenue, Hastings, MI, USA",
+      "brokenLocator": "//ul[@id\u003d\u0027addressTypeAhead_contact-6lozjf4f77r-address-255fzycdiw9-googleAddressAPI_typeaheadDropdownList\u0027]/li",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Address\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HMIC Agency Portal - Workers Compensat_05ab75/li_404 East Woodlawn Avenue, Hastings, MI, USA_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_HMIC Agency Portal - Workers Compensat_37dc0f/input_Phone Number_contact-m9he0twddpj-phoneNumber",
+      "brokenLocator": "//span[text()\u003d\u0027Phone Number\u0027]/../../..//input[@id\u003d\u0027contact-nm8r96et5l-phoneNumber\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[4]/div[2]/div/div[2]/div[2]/div/div/div[5]/div/div[2]/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_HMIC Agency Portal - Workers Compensat_37dc0f/input_Phone Number_contact-m9he0twddpj-phoneNumber_idRelative.png"
+    }
+  ]
 }
