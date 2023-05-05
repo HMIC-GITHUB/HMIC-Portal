@@ -6,6 +6,7 @@
    <UUID>92db3388-49e9-4c55-9587-0d76a49ccfb3</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\SomaSiv\git\HMIC-Portal\HMIC_Portal.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
