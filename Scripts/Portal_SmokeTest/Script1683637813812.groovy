@@ -54,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_TypeList_Ind
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_FirstName'), 'Auto_FirstName')
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_LastName'), 'LastName2')
+WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(5))
 
 // + RandomStringUtils.randomAlphabetic(5)
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_ZipCode'), '60614')
