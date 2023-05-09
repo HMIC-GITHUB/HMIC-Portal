@@ -21,6 +21,31 @@ import java.util.Map
 
 
 
+def static "myPack.WriteExcel.savePortalData"(
+    	String currentDateAndTime	
+     , 	String tcName	
+     , 	String state	
+     , 	String lob	
+     , 	String accountNumber	
+     , 	String submissionNumber	
+     , 	String policyNumber	
+     , 	String ExecutionStatus	
+     , 	String pcURL	
+     , 	String portalURL	) {
+    (new myPack.WriteExcel()).savePortalData(
+        	currentDateAndTime
+         , 	tcName
+         , 	state
+         , 	lob
+         , 	accountNumber
+         , 	submissionNumber
+         , 	policyNumber
+         , 	ExecutionStatus
+         , 	pcURL
+         , 	portalURL)
+}
+
+
 def static "com.kms.katalon.keyword.excel.ExcelKeywords.saveWorkbook"(
     	String filePath	
      , 	Workbook workbook	) {
