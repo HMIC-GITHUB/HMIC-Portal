@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Portal_SmokeTestWC</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>ssomasundaram@hastingsmutual.com;</mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>10b1b991-6aab-4e80-bd77-e01166f4d6b5</testSuiteGuid>
+   <testCaseLink>
+      <guid>761ca2f0-1f54-47de-944a-cdf3cd169fc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Portal_SmokeTest</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>69924afe-e0ed-4b34-b90f-f73a2c547d97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd1f9f35-6343-4dd9-b489-0ba64e89ce29</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cff8e2af-2a07-4a60-98c7-dd4254c94292</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a22dadf1-e7c0-4f09-b78f-82589d290ff2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>265e1bf5-884b-4885-b7cb-2d9a461283be</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

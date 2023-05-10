@@ -44,6 +44,9 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_PreQual_CheckBox_Ris
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_PreQual_Button_Agree'))
 
+WebUI.waitForElementHasAttribute(findTestObject('Object Repository/Portal/Portal_AccInfo_Header_AccInfo'), 'Step 1: Account Information', 
+    10)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_AccInfo_Header_AccInfo'), 'Step 1: Account Information')
 
 WebUI.comment('User successfully navigated to Account Information screen')
@@ -54,7 +57,8 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_TypeList_Ind
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_FirstName'), 'Auto_FirstName')
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(5))
+WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(
+        5))
 
 // + RandomStringUtils.randomAlphabetic(5)
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_ZipCode'), '60614')
@@ -105,6 +109,9 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Common_Button_NextLoc'))
 
+WebUI.waitForElementHasAttribute(findTestObject('Object Repository/Portal/Portal_Loc_Header_Loc'), 'Step 3: Locations', 
+    10)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_Loc_Header_Loc'), 'Step 3: Locations')
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_Loc_TextBox_MaxNumOfEmp'), '51')
@@ -125,6 +132,9 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Common_Button_NextStateCov'))
 
+WebUI.waitForElementHasAttribute(findTestObject('Object Repository/Portal/Portal_Cov_Header_Coverages'), 'Step 4: Coverages', 
+    10)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_Cov_Header_Coverages'), 'Step 4: Coverages')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Common_Button_NextLineCov'))
@@ -137,15 +147,20 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Common_Button_NextQuote'))
 
+WebUI.waitForElementHasAttribute(findTestObject('Object Repository/Portal/Portal_Quote_Header_Quote'), 'Step 6: Quote', 
+    10)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_Quote_Header_Quote'), 'Step 6: Quote')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Portal/Portal_Quote_Label_SubmissionNum'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Portal/Portal_Quote_Label_SubmissionNum'), 30)
 
 GlobalVariable.SubmissionNumber = WebUI.getText(findTestObject('Object Repository/Portal/Portal_Quote_Label_SubmissionNum'))
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Portal/Portal_Common_Button_NextAdditionalInfo'))
+
+WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 7: Additional Info', 10)
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 7: Additional Info')
 
@@ -169,6 +184,8 @@ WebUI.setText(findTestObject('Portal/Portal_FirstCall_TextBox_EmailAddress'), 's
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Portal/Portal_Common_Button_NextReview'))
+
+WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review', 10)
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review')
 
@@ -234,11 +251,15 @@ WebUI.click(findTestObject('Portal/Portal_Quote_Table_QuoteNum', [('SubmissionNu
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review', 10)
+
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review')
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Portal/Portal_Common_Button_NextPayment'))
+
+WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 9: Payment', 10)
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 9: Payment')
 
