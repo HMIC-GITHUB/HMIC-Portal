@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Portal_ULP Regression</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>2df1a3aa-c123-4060-9a3d-a1505d66134c</testSuiteGuid>
+   <testCaseLink>
+      <guid>f4fb6953-e6be-492b-b040-521e697eb02f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC002</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>931278d7-74af-4775-b255-1ffb7a84a979</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Files/StateWiseExecution/ILStateExecution</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>931278d7-74af-4775-b255-1ffb7a84a979</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>be704288-b8d4-4114-afd4-5e38441a0093</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>931278d7-74af-4775-b255-1ffb7a84a979</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ZipCode</value>
+         <variableId>70d62cdd-335e-4185-a0d6-2238da758d79</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bcb08258-6ef4-4c4c-ae6a-8cbe3baaa04f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC004</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4e8822cc-3557-4cdf-bac2-35d2165c7276</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Files/StateWiseExecution/INStateExecution</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4e8822cc-3557-4cdf-bac2-35d2165c7276</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>3ec85c16-6b42-4232-83a2-bcd287191bf4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4e8822cc-3557-4cdf-bac2-35d2165c7276</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ZipCode</value>
+         <variableId>a780d2f9-d506-432a-b326-1d7d32bf8657</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0db37263-801d-442d-bc76-88e2f4b40b56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC009</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7c8ecefa-f23d-48ba-83cd-176221a26d59</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Files/StateWiseExecution/ILStateExecution</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7c8ecefa-f23d-48ba-83cd-176221a26d59</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>2a2ef668-ce18-485e-a857-cea1db37535c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c8ecefa-f23d-48ba-83cd-176221a26d59</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ZipCode</value>
+         <variableId>9a7baaed-f437-46a7-9c8d-75c0dafe198b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0ef6216-bae1-4247-9d80-4d57e22dfa27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC014</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4eecb423-7541-46a3-9664-1dd20fce30ff</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Files/StateWiseExecution/ILStateExecution</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4eecb423-7541-46a3-9664-1dd20fce30ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>306b7efe-c9eb-42a8-91b6-77bcc5dd81b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4eecb423-7541-46a3-9664-1dd20fce30ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ZipCode</value>
+         <variableId>721607b4-c2d2-479d-b77a-3537b9b19897</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

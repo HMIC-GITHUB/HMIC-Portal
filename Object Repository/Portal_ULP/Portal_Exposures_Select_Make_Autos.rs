@@ -6,12 +6,12 @@
    <elementGuidId>5ebddac3-3e84-413d-98fa-18977b35c5c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-22-option-7</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CADILLAC'])[1]/following::div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='react-select-22-option-7']</value>
+         <key>CSS</key>
+         <value>#react-select-22-option-7</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>31eb6e74-0f98-45ef-866b-a9c293fc28f8</webElementGuid>
+      <webElementGuid>42a579cd-7b18-4153-815c-dfec5bf5b518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>3efced4d-131d-4d14-93ec-ef23c40821c1</webElementGuid>
+      <webElementGuid>4fb34f04-ff80-4b18-b0fe-78c7c61068bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-22-option-7</value>
-      <webElementGuid>c77eb9f1-9036-4f9f-8a65-61764dd00005</webElementGuid>
+      <webElementGuid>9e5fe172-3edd-48cc-95df-ae1075802bb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>6f2bb802-4106-4920-b63c-1b51012c5617</webElementGuid>
+      <webElementGuid>0963fca5-6ff2-48f8-b30d-74f83e08244f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CHEVROLET</value>
-      <webElementGuid>0d90112b-4dc3-44f6-954b-da9182738892</webElementGuid>
+      <webElementGuid>51a53b15-85f1-4af2-b783-77e57cb8d578</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-22-option-7&quot;)</value>
-      <webElementGuid>6b35a99f-ad0a-41c3-9eb9-a97b58dfe886</webElementGuid>
+      <webElementGuid>5480a309-7a2d-44c0-baf4-fbc28691f4b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-22-option-7']</value>
-      <webElementGuid>3a09b372-7b55-4f19-8f36-f53d94e3f0fa</webElementGuid>
+      <webElementGuid>cd781320-cc87-48e1-9a95-1b1c8350b308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CADILLAC'])[1]/following::div[1]</value>
-      <webElementGuid>51ca47fa-9639-4022-9b12-130b6cbbb9ea</webElementGuid>
+      <webElementGuid>707b95be-2123-4280-b3ce-fe70b2358150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BUICK'])[1]/following::div[2]</value>
-      <webElementGuid>ca197410-1ec5-488f-8dbd-166c73ac3288</webElementGuid>
+      <webElementGuid>afdb70c6-f55e-4cfc-b144-f15f65a69bb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CHRYSLER'])[1]/preceding::div[1]</value>
-      <webElementGuid>5189a7d0-1ffc-48cc-aacf-92c1d7a620f8</webElementGuid>
+      <webElementGuid>07acfe49-4699-4c07-b287-0c4041c868e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DODGE'])[1]/preceding::div[2]</value>
-      <webElementGuid>96c204dd-7e45-46c0-9d19-14a9303bbef2</webElementGuid>
+      <webElementGuid>bd990c85-33a5-4ecd-b19d-03c378bd0263</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CHEVROLET']/parent::*</value>
-      <webElementGuid>422ef896-62a0-4ef9-bae5-102acc83569f</webElementGuid>
+      <webElementGuid>19b6a3c1-c8f7-44fe-b53e-21e9ad12d569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]</value>
-      <webElementGuid>f5d99190-fbd2-4c79-9ea9-26d6b29d2644</webElementGuid>
+      <webElementGuid>05dca9f0-24ec-486f-879a-9b214434d265</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-22-option-7' and (text() = 'CHEVROLET' or . = 'CHEVROLET')]</value>
-      <webElementGuid>7c59ca5b-aa08-4e74-9f5a-94f03369af7f</webElementGuid>
+      <webElementGuid>a0d65661-ca26-4a6b-89b2-b7ad7ded0b69</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

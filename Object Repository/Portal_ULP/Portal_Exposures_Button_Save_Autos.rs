@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()='Save']</value>
+         <value>//span[text()='Autos']/../../../../..//span[text()='Save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

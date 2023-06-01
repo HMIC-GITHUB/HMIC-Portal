@@ -6,12 +6,12 @@
    <elementGuidId>591b1995-0d85-4f23-9daf-6e30b3778a85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#addressTypeAhead_address-7cvye50n0xx-googleAddressAPI</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[2]/div[2]/div/div/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#addressTypeAhead_address-7cvye50n0xx-googleAddressAPI</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ff70e55d-78c0-4e6d-8d9a-3e62ae60453a</webElementGuid>
+      <webElementGuid>e7843243-8ce5-474f-a3d6-b8ea178c1abb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>addressTypeAhead_address-7cvye50n0xx-googleAddressAPI</value>
-      <webElementGuid>2d37ec17-3694-4e2d-bf68-368f22375f84</webElementGuid>
+      <webElementGuid>7d9f67d4-3982-4309-8a9e-94b09d37c74e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>caf5fa6c-d8c4-4360-80ff-34c7b7613f49</webElementGuid>
+      <webElementGuid>05d5d074-6419-40bb-86fc-1b3a8ef320cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicInput__input jut__InputField__input</value>
-      <webElementGuid>c38101f1-c58b-4870-9031-7791df779767</webElementGuid>
+      <webElementGuid>43d348ee-0a41-4938-93ca-fcdbf905341c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>section-address-7cvye50n0xx address-line1</value>
-      <webElementGuid>1c0e5f6e-f0cf-4c4d-8035-45b056b1282c</webElementGuid>
+      <webElementGuid>d7ae1caf-3867-41ec-a25d-26013d413360</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5b5ae4cf-d210-4922-b3a0-60942b14d7ae</webElementGuid>
+      <webElementGuid>bdebf643-2459-4655-8be5-fd8093460b96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>addressTypeAhead_address-7cvye50n0xx-googleAddressAPI_1440013438</value>
-      <webElementGuid>cef77b4b-f0d5-4fa8-b4a3-50c1a37752c3</webElementGuid>
+      <webElementGuid>aed45719-4f3d-4f73-9d9c-342dacc3ecdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Street address</value>
-      <webElementGuid>370f960a-5ac4-4ee2-91de-fb0d2e9300d7</webElementGuid>
+      <webElementGuid>b7b79d2d-eb9c-4e66-8187-fec02a9420bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Street address</value>
-      <webElementGuid>b4d1b5aa-533f-4658-8eb1-53b99506b747</webElementGuid>
+      <webElementGuid>19e3de9a-eb83-45ae-8575-69d56ba5b3d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;addressTypeAhead_address-7cvye50n0xx-googleAddressAPI&quot;)</value>
-      <webElementGuid>05d68ec5-75f4-4648-bd4e-e194aa359c82</webElementGuid>
+      <webElementGuid>7b3afd0d-a0f9-43c3-a2e7-96c36a7af0f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='addressTypeAhead_address-7cvye50n0xx-googleAddressAPI']</value>
-      <webElementGuid>685caa12-462a-4455-a628-29494de72701</webElementGuid>
+      <webElementGuid>4f5c48d3-84e5-4caf-95b2-693ca07cbe5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/input</value>
-      <webElementGuid>2c85acb6-f657-4470-88f6-c6812fffb5be</webElementGuid>
+      <webElementGuid>57830351-ba4a-47cd-b6c3-7a4bae62f7cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div/div/input</value>
-      <webElementGuid>9ffa5c47-8f5c-4f37-8251-bfa05efd473a</webElementGuid>
+      <webElementGuid>c08a7c1d-5074-45d9-a8a8-880ddd6d05da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'addressTypeAhead_address-7cvye50n0xx-googleAddressAPI' and @type = 'text' and @placeholder = 'Street address']</value>
-      <webElementGuid>c9d48b93-353e-429d-a41b-a2057602f939</webElementGuid>
+      <webElementGuid>3f06bee4-e31c-4749-8800-a684fcc181ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -79,6 +79,11 @@ public class GlobalVariable {
      */
     public static Object Portal_Password
      
+    /**
+     * <p></p>
+     */
+    public static Object Cook_County_Premium
+     
 
     static {
         try {
@@ -100,6 +105,7 @@ public class GlobalVariable {
             PortalURL = selectedVariables['PortalURL']
             Portal_Username = selectedVariables['Portal_Username']
             Portal_Password = selectedVariables['Portal_Password']
+            Cook_County_Premium = selectedVariables['Cook_County_Premium']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

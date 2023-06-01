@@ -6,12 +6,12 @@
    <elementGuidId>3fd176e2-f18b-47a1-9562-1b57b78f9a06</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#next > span > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='next']/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#next > span > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e3379c1e-c966-4a42-9703-00ae42e75e5e</webElementGuid>
+      <webElementGuid>d07db466-d631-454d-8dbc-7dbce6357525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Next: General Information</value>
-      <webElementGuid>19fa0541-7e87-45ae-b539-29da3b691203</webElementGuid>
+      <webElementGuid>5ac84bd1-50a5-486b-8fc8-e78a26e0e98c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;next&quot;)/span[1]/span[1]</value>
-      <webElementGuid>bff458c4-198e-4af4-9bfe-6d9326bb929d</webElementGuid>
+      <webElementGuid>7d603a05-eed7-480e-b595-885e8f454e97</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='next']/span/span</value>
-      <webElementGuid>5eea6c00-674f-4ef1-adf9-bcc73248e91f</webElementGuid>
+      <webElementGuid>e5d3bb38-a29d-410a-aa5f-b33eee620c92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[2]</value>
-      <webElementGuid>a36e9ac5-fae8-46a4-9634-2337128f2f86</webElementGuid>
+      <webElementGuid>c0fc7eb3-9a67-4fad-8bd0-112e87341298</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::span[4]</value>
-      <webElementGuid>fa65a828-2da9-40e5-8e92-a993382eaa09</webElementGuid>
+      <webElementGuid>835ba9a8-c5ba-4b70-86c2-4966bb890de4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'next', '&quot;', ')/span[1]/span[1]')])[1]/preceding::span[1]</value>
-      <webElementGuid>79ab044f-e43f-4580-a8ee-05e84d9dea23</webElementGuid>
+      <webElementGuid>a18af724-d294-4068-97bd-005f9524a65a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span/span</value>
-      <webElementGuid>a1762099-665c-4a03-9c03-f4ecbc99248d</webElementGuid>
+      <webElementGuid>49be3ea1-b042-4f93-beaa-b80fee16b7b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Next: General Information' or . = 'Next: General Information')]</value>
-      <webElementGuid>23375875-734a-4b68-89b2-120065cfe3cc</webElementGuid>
+      <webElementGuid>3ff30afc-36f1-4675-b16b-0bf41a4cf758</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

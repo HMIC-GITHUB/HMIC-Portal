@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "77E3E5C2F897EDD107CBFAF1582C2ED7",
+  "keywordClasses": [
+    {
+      "name": "myPack.Portal_ULP_Utility",
+      "keywordMethods": [
+        {
+          "name": "getCoverageInfo",
+          "parameters": [
+            {
+              "name": "coverageName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

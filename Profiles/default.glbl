@@ -74,4 +74,9 @@
       <initValue>'Hmic1234'</initValue>
       <name>Portal_Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'$175'</initValue>
+      <name>Cook_County_Premium</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

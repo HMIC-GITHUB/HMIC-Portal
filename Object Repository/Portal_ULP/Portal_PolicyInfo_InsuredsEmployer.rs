@@ -6,12 +6,12 @@
    <elementGuidId>8d6a4e69-24b1-4bcd-88f7-f9c232bd7d62</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#insuredEmployer</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='insuredEmployer']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#insuredEmployer</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e85fdbae-7ab8-4a72-a201-2f35db680114</webElementGuid>
+      <webElementGuid>29319c48-542d-4c8c-a041-e19d860bfa44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>insuredEmployer</value>
-      <webElementGuid>cab6a767-a854-4e02-99e5-2473caa26fa1</webElementGuid>
+      <webElementGuid>76e244ca-f6c2-41e3-9f95-26b674204267</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1af44ad3-709e-4e7d-a2bf-c77fcb16d829</webElementGuid>
+      <webElementGuid>ab5b9ff6-b5c1-4ca0-b91f-5288bf9e31fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicInput__input jut__InputField__input</value>
-      <webElementGuid>c674c244-4d42-4e1e-bd2d-b57b6b00ab7e</webElementGuid>
+      <webElementGuid>1bc97531-09a7-4958-999b-eb5c6b457ea6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>95bfdf46-9296-42a0-b6fb-35b52c67cac7</webElementGuid>
+      <webElementGuid>44f13902-f3ca-40e7-b84e-3634d69201f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f07cfa9b-6df5-483f-9742-03fcbf346239</webElementGuid>
+      <webElementGuid>62c8084d-cdf9-4d26-bee0-fe29a8b7c799</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>insuredEmployer_1440013438</value>
-      <webElementGuid>7740b369-ea7b-4f4d-be9e-fd7b92d4a4b6</webElementGuid>
+      <webElementGuid>4b553b3c-9d63-4317-bea4-3e0329b0434f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Employer Name</value>
-      <webElementGuid>13ff6291-9347-4bf4-8f77-e16ea41e2ece</webElementGuid>
+      <webElementGuid>afb93b4c-7e33-4a75-844e-685553a13351</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Employer Name</value>
-      <webElementGuid>7c3ccf03-91b6-4282-ba4a-a5517218de4f</webElementGuid>
+      <webElementGuid>488c11c2-8dcf-4f73-b7c1-a7b1379e7b41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;insuredEmployer&quot;)</value>
-      <webElementGuid>65be37c5-0529-45cb-ab00-dbc58e1b19f2</webElementGuid>
+      <webElementGuid>76174a3c-fa78-4dc4-9c7d-e14ef0b2c491</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='insuredEmployer']</value>
-      <webElementGuid>3a534816-d80f-426e-9790-6da952321917</webElementGuid>
+      <webElementGuid>b69fc7d7-d4d9-46c8-bfa5-6932dc10d3be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[5]/div/div[2]/div[2]/input</value>
-      <webElementGuid>91a0d208-45f1-4750-9c9e-9ba3da9f3b08</webElementGuid>
+      <webElementGuid>57059608-501f-4797-a913-e7d62d0ec847</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/input</value>
-      <webElementGuid>28e1b162-7f25-4574-8f28-ffac24eee7d6</webElementGuid>
+      <webElementGuid>43035580-c792-4d94-9c11-02cbd1d138ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'insuredEmployer' and @type = 'text' and @placeholder = 'Employer Name']</value>
-      <webElementGuid>947a33d2-f3f8-4323-8c1a-5de9206f0000</webElementGuid>
+      <webElementGuid>c50783ca-1e3d-4f10-97f4-e81997e43b27</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

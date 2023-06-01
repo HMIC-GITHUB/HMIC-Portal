@@ -6,12 +6,12 @@
    <elementGuidId>f0b9c81b-7934-4b8a-8a4c-eb81d196111e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#perAccident</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='perAccident']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#perAccident</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0a395941-3710-46cc-a097-dcd8ee81e01b</webElementGuid>
+      <webElementGuid>a4ac1c4e-0462-4720-86e1-d585c672fa88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>perAccident</value>
-      <webElementGuid>406a16d2-863c-4dab-9423-c48adc991d70</webElementGuid>
+      <webElementGuid>0efe65a5-dad5-496a-aa06-88930303f407</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6ef1134f-bff2-405e-b118-054154da0e31</webElementGuid>
+      <webElementGuid>fee02634-6cbc-40b0-a515-509918c028e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicInput__input jut__InputField__input</value>
-      <webElementGuid>eda199d3-d1de-4788-ae14-f194e7cb0937</webElementGuid>
+      <webElementGuid>9405f027-73c4-4857-99a2-b0457cbbc94d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>c1b3e51e-5ccc-44dd-900e-610869fe3f24</webElementGuid>
+      <webElementGuid>4d4af681-8d54-4041-bc51-b8db91cc2de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2d8883fc-c1da-4a37-a36f-b7dc9dad32aa</webElementGuid>
+      <webElementGuid>60351be2-0a39-41cc-b7ea-b3a80d3a7e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>perAccident_1440013438</value>
-      <webElementGuid>de50f949-7227-4bce-a1a0-8c343358fd45</webElementGuid>
+      <webElementGuid>d8f09360-cd3c-4f98-ade0-a55e640490ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>500,000</value>
-      <webElementGuid>f797f07d-a4cf-4a36-a5fe-601096ef7460</webElementGuid>
+      <webElementGuid>79727122-6042-4971-ae88-68b40c93c3a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>500,000</value>
-      <webElementGuid>5ac91766-4551-41a6-837e-fff7ecf675cd</webElementGuid>
+      <webElementGuid>b5929ee5-dd31-4d47-8969-8d9518e12400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>decimal</value>
-      <webElementGuid>935a8947-472f-4c8e-9295-ef4ab26521a2</webElementGuid>
+      <webElementGuid>0bc9f85d-5e94-4363-a910-06ddaced4435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[1]/div[@class=&quot;PrimaryPolicy_panelWrapper__YB748&quot;]/div[1]/div[@class=&quot;InputList_editMode__3LmDi InputList_editContainer__1i18K&quot;]/div[@class=&quot;PolicyDetailsForm_form__1shYS&quot;]/div[3]/div[@class=&quot;AccidentLimits_limitFields__24GXz&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/input[@id=&quot;perAccident&quot;]</value>
-      <webElementGuid>fce83449-a883-416a-b41d-999d5f86304a</webElementGuid>
+      <webElementGuid>83b6a60c-9a9a-4109-a89a-b2f906decad6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='perAccident']</value>
-      <webElementGuid>41cc1bfa-1a23-419c-836b-05565644ae32</webElementGuid>
+      <webElementGuid>bf7411d5-f4d7-4358-94ed-2a2cc240202e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div[2]/div[2]/div/div/input</value>
-      <webElementGuid>5710d6b9-5696-4687-928f-bbc01b6dd1f7</webElementGuid>
+      <webElementGuid>12bcbee1-3fae-43e9-9e46-95ed93ad0e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/input</value>
-      <webElementGuid>591d31b3-9877-416b-b950-7f39aa15435a</webElementGuid>
+      <webElementGuid>5c3ca15c-8e20-4533-9dfa-7d9b5cdca76b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'perAccident' and @type = 'text' and @placeholder = '500,000']</value>
-      <webElementGuid>5bf4e2f3-18ad-4721-a006-8f68fbc1b0bf</webElementGuid>
+      <webElementGuid>db808388-8e4a-45e4-9ed9-bf6e5e8b6c60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

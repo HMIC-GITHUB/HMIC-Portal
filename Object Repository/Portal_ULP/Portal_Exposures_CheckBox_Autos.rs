@@ -6,12 +6,12 @@
    <elementGuidId>1adfc816-05bd-42b6-ba5d-c9d9ed42239e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.Autos_autoForm__2myVs > div.FieldSet_container__3odpU > div.jut__FieldComponent__fieldComponent.smallOverline > div.jut__FieldComponent__contentContainer.jut__FieldComponent__controls > div.jut__CheckboxField__checkbox > span.jut__CheckboxField__checkboxElement</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Autos_autoForm__2myVs > div.FieldSet_container__3odpU > div.jut__FieldComponent__fieldComponent.smallOverline > div.jut__FieldComponent__contentContainer.jut__FieldComponent__controls > div.jut__CheckboxField__checkbox > span.jut__CheckboxField__checkboxElement</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d923d012-d555-40c1-a178-ca7bf361461a</webElementGuid>
+      <webElementGuid>87b8ce67-09bc-40b9-9af3-fe8a9a2d3788</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jut__CheckboxField__checkboxElement</value>
-      <webElementGuid>091eebb0-aa4d-4ec9-b7ef-36daed262a72</webElementGuid>
+      <webElementGuid>0b2bc334-4b3d-43b9-8d87-d09f4ab4a085</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Autos</value>
-      <webElementGuid>f613be7f-24e7-4032-ad17-ef6aeff04a5d</webElementGuid>
+      <webElementGuid>2fe096a9-ad4f-4259-aeba-e4081e17c159</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>faaa46a4-d240-4496-8de8-91c9ddb20c83</webElementGuid>
+      <webElementGuid>2446e120-46a1-429d-894f-646b5dfb44af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>7754c0f6-587c-4712-8447-6840a4a0f691</webElementGuid>
+      <webElementGuid>57deb997-94a4-4ecc-9954-c26500576e2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>34c87d52-af29-4007-ad4e-cc0fa34bf272</webElementGuid>
+      <webElementGuid>fb212598-1e0a-496b-8de6-799a88cb378a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[@class=&quot;Exposures_form__3Ll82&quot;]/div[@class=&quot;Exposures_form__3Ll82&quot;]/div[2]/div[@class=&quot;Autos_autoForm__2myVs&quot;]/div[@class=&quot;FieldSet_container__3odpU&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent smallOverline&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/div[@class=&quot;jut__CheckboxField__checkbox&quot;]/span[@class=&quot;jut__CheckboxField__checkboxElement&quot;]</value>
-      <webElementGuid>36667d10-0bd7-423e-b416-d6a6c7e278aa</webElementGuid>
+      <webElementGuid>29f07ade-7b3b-4279-8153-47a786547220</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/span</value>
-      <webElementGuid>678a9fd3-b0ce-465d-89e1-c44cf5414554</webElementGuid>
+      <webElementGuid>fc610a9c-a839-441b-8501-e29bcee2c0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/span</value>
-      <webElementGuid>cac57dd4-9fa6-4c3c-8248-5da9fd04f2da</webElementGuid>
+      <webElementGuid>99540c37-eac4-4e39-9892-4a61bd5cce68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

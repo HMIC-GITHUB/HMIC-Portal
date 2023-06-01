@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_Payment_Radiobtn_PaymentPlans_Monthly</name>
+   <name>Portal_Payment_Radbtn_PayPlans_Monthly</name>
    <tag></tag>
    <elementGuidId>c765384f-47a6-4db2-9d0e-b4e0cd4b7fd0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>a464fbf0-f7c2-416b-bd59-58fca3b2ca39</webElementGuid>
+      <webElementGuid>ee8c66cd-e0cb-4137-b0f2-fe6082f040e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>for</name>
       <type>Main</type>
       <value>paymentPlan_4_db_monthly</value>
-      <webElementGuid>6f0f68c9-34e6-45a4-922e-44b9ff13b6e4</webElementGuid>
+      <webElementGuid>25228f50-b1b2-4863-b310-16192298aac9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jut__RadioButton__label</value>
-      <webElementGuid>162b6d9c-7418-4129-9db8-dfa943a2bffa</webElementGuid>
+      <webElementGuid>ae953c5d-6685-4241-8b09-17203c738ae4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Monthly</value>
-      <webElementGuid>b58d6ddd-e3fd-44e7-91a4-a6dba1ad3c6f</webElementGuid>
+      <webElementGuid>1613b44b-1f2a-498f-8551-1fc84b6e8462</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;billingAndPaymentsCard&quot;)/div[1]/div[@class=&quot;dynamicTable__table jut__Table__table jut__Table__hoverable hmic__Table__default hmic__Table__alternatingRowColorsFlipped PaymentStep_dataTable__2o3PO&quot;]/table[@class=&quot;jut__Table__tableElement&quot;]/tbody[1]/tr[@class=&quot;jut__Table__row&quot;]/td[@class=&quot;dynamicTable__tableCell jut__Table__tableCell text-left&quot;]/div[@class=&quot;dynamicRadioButton__radioButton jut__RadioButton__radioButton jut__Table__radio&quot;]/label[@class=&quot;jut__RadioButton__label&quot;]</value>
-      <webElementGuid>5c4baab6-3485-496a-af93-ff3a1ec7f7bc</webElementGuid>
+      <webElementGuid>361e1fb2-76bf-4d69-aa55-ffc30ed2f4b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='billingAndPaymentsCard']/div/div[2]/table/tbody/tr[5]/td/div/label</value>
-      <webElementGuid>2f2fe5f9-33d6-4ea6-a589-eb595dca5066</webElementGuid>
+      <webElementGuid>c33bcccd-1c66-4206-844e-234cd0825993</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$241.00'])[6]/following::label[1]</value>
-      <webElementGuid>4de1fc36-7638-43ff-a782-34070cfa4b3f</webElementGuid>
+      <webElementGuid>695e9a91-f843-4675-8d9c-63df18499e98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$60.25'])[2]/following::label[1]</value>
-      <webElementGuid>3318b2dc-17f1-4c31-a27d-497ca5d7d985</webElementGuid>
+      <webElementGuid>ad5ca0cf-6e7d-42f6-b084-60a2959f4c6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$40.16'])[1]/preceding::label[1]</value>
-      <webElementGuid>282ac95d-7b41-4981-b020-9005d00f8765</webElementGuid>
+      <webElementGuid>024a825a-01dc-49ec-8729-1dd405dc4815</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td/div/label</value>
-      <webElementGuid>dcf6bf5c-1317-47cc-ab21-4c598b5da262</webElementGuid>
+      <webElementGuid>86ebd868-b4b7-483f-9402-a618b45bc5b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Monthly' or . = 'Monthly')]</value>
-      <webElementGuid>4024ef8e-7812-4b4c-a1c5-86bc320fe845</webElementGuid>
+      <webElementGuid>6dc04786-7472-4f3a-975b-fb170723dd36</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

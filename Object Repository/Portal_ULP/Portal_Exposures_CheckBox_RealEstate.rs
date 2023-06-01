@@ -6,12 +6,12 @@
    <elementGuidId>2cff1e5c-b0ad-423e-a0eb-b9a8558ac703</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.jut__CheckboxField__checkboxElement</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[contains(@aria-label,'Real Estate')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.jut__CheckboxField__checkboxElement</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>22829e1d-9bc0-4cca-8b87-c51a9681bcca</webElementGuid>
+      <webElementGuid>22f31e6c-e7e7-46de-af1e-8fd569c1ebe7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jut__CheckboxField__checkboxElement</value>
-      <webElementGuid>8f2f2071-a528-491d-b5b1-2a5918ef4dff</webElementGuid>
+      <webElementGuid>ac9bb5c6-3b19-4ece-a0b8-0ba253fcd09f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Real Estate</value>
-      <webElementGuid>79717184-2a22-4637-8acf-ac81b3f37a0e</webElementGuid>
+      <webElementGuid>7e73896c-35e4-4e85-8390-3e50fd2254d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b1dd7b77-b599-4930-bd1f-47a88994c164</webElementGuid>
+      <webElementGuid>617ad8d7-36d6-4799-a0de-31bcca0847cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>be6d66d0-f879-4861-9c8e-bdd2ead05157</webElementGuid>
+      <webElementGuid>f6f4cda0-9431-4db8-b0cd-e95b2a88dfc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>47b84fd4-606a-4ef8-ac4d-27debe129c83</webElementGuid>
+      <webElementGuid>cbdc3927-7c69-4c46-90be-5fa052700396</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[@class=&quot;Exposures_form__3Ll82&quot;]/div[@class=&quot;Exposures_form__3Ll82&quot;]/div[1]/div[1]/div[@class=&quot;FieldSet_container__3odpU&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent smallOverline&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/div[@class=&quot;jut__CheckboxField__checkbox&quot;]/span[@class=&quot;jut__CheckboxField__checkboxElement&quot;]</value>
-      <webElementGuid>c10a1cd9-004b-4ea0-a663-4b7cdff5e691</webElementGuid>
+      <webElementGuid>57159a95-a913-4786-b068-77e906dcf26e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/div/div/div/span</value>
-      <webElementGuid>afe3cb4d-4f82-4727-8d2c-4f8e0b425d93</webElementGuid>
+      <webElementGuid>5f4f906d-ec47-430b-bdbc-871e83e5acdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/div/div/div/span</value>
-      <webElementGuid>76eab2f9-b21c-4d75-8750-9e1e48c177c2</webElementGuid>
+      <webElementGuid>39e9d56c-7568-4a36-b8bc-e4c18bd9e2c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

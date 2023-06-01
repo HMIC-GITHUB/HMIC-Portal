@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_GeneralInformation_Button_NextQuote</name>
+   <name>Portal_Quote_PremiumDetails_Webtable</name>
    <tag></tag>
-   <elementGuidId>db2dd796-7010-4d58-908d-ec9d8d543d3e</elementGuidId>
+   <elementGuidId>d89b6c3a-0875-4a33-888a-da936410a94a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id='next']</value>
+         <value>//table[@class='jut__Table__tableElement']//tr</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,6 +7,13 @@ import java.lang.String
 
 
 
+def static "myPack.Portal_ULP_Utility.getCoverageInfo"(
+    	String coverageName	) {
+    (new myPack.Portal_ULP_Utility()).getCoverageInfo(
+        	coverageName)
+}
+
+
 def static "myPack.WriteExcel.savePortalData"(
     	String currentDateAndTime	
      , 	String tcName	

@@ -6,12 +6,11 @@
    <elementGuidId>3bc3c613-b81d-4b61-9100-7c0650c27ffe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[(text() = '0010-NiPerry 020590010NickPerry' or . = '0010-NiPerry 020590010NickPerry')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='react-select-8-option-7']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7f598430-698e-4fb3-81e1-898c5135c9da</webElementGuid>
+      <webElementGuid>40cfb8fe-8648-4c51-a2e9-b6e5d164ae7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__singleValue jut__GenericSelectControl__singleValue css-1uccc91-singleValue</value>
-      <webElementGuid>97c752fe-eaa8-4958-a4f2-2b8368b6382b</webElementGuid>
+      <webElementGuid>fc5bc9df-bfd4-4a7c-ae2c-bf4c13e7f954</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0010-NiPerry 020590010NickPerry</value>
-      <webElementGuid>d01bb5d0-a17f-45b2-9276-6183071e949b</webElementGuid>
+      <webElementGuid>3059eebe-8736-4916-82f0-9dc8adcf63b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;producerPublicId-wrapper&quot;)/div[@class=&quot;jut__GenericSelectControl__control jut__GenericSelectControl__controlFocused&quot;]/div[@class=&quot;css-1hwfws3&quot;]/div[@class=&quot;dynamicGenericSelectControl__singleValue jut__GenericSelectControl__singleValue css-1uccc91-singleValue&quot;]</value>
-      <webElementGuid>03d5bb1c-cba9-4a23-9070-bdc3a05d300d</webElementGuid>
+      <webElementGuid>8ff0e810-9e4b-4a26-9afc-ee6a2a93c715</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='producerPublicId-wrapper']/div/div/div</value>
-      <webElementGuid>c6d76bda-e068-481d-898c-5a3018921d9d</webElementGuid>
+      <webElementGuid>d1ac69a0-0511-4c1e-9b88-bfb71d6de7c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Producer Code'])[1]/following::div[6]</value>
-      <webElementGuid>afd84f34-fd98-4443-b777-a4ba89bb63d4</webElementGuid>
+      <webElementGuid>1beacdf7-cfa7-42f5-a3d7-a5a202e39912</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jim Simpson Ins &amp; Investments 0002059'])[1]/following::div[10]</value>
-      <webElementGuid>2ac98a2f-fc16-4012-8aa7-1bea2f83612c</webElementGuid>
+      <webElementGuid>81e380cd-2d3f-4b12-86c3-f956c9336455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[3]</value>
-      <webElementGuid>c20adf12-eca8-419f-8a65-e10678554aff</webElementGuid>
+      <webElementGuid>76326514-aba6-423e-95f2-f9ac6145ad23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Account'])[1]/preceding::div[3]</value>
-      <webElementGuid>ab4a9dde-4da7-412e-b65a-3c56de9f243d</webElementGuid>
+      <webElementGuid>5be253e1-65e2-4dc5-8764-5419e2ad34ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='0010-NiPerry 020590010NickPerry']/parent::*</value>
-      <webElementGuid>c4ef8bbd-a10f-48bc-96c0-75479d3bc17a</webElementGuid>
+      <webElementGuid>3776c76e-3fd4-4f60-b6a8-566295bb7bbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/div[2]/div/div/div/div/div</value>
-      <webElementGuid>b328f376-a5bd-479c-9745-88b1ada58c1a</webElementGuid>
+      <webElementGuid>cd42996c-9fb9-4368-9668-73099b63d468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '0010-NiPerry 020590010NickPerry' or . = '0010-NiPerry 020590010NickPerry')]</value>
-      <webElementGuid>68b7145a-12b9-42df-80cf-074a4135f1e1</webElementGuid>
+      <webElementGuid>9362a2ad-3153-42b4-b76b-10d7000fd2b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

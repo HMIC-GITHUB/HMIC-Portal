@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='addressTypeAhead_contact-jp0dhqd1yn-address-7b9nflk4845-googleAddressAPI_typeaheadDropdownList']/li[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>88b8ba6a-2a84-48f1-ade4-69b3978aae97</webElementGuid>
+      <webElementGuid>93b49415-1b7a-4957-bf11-cdc930dc8b7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>f2059ea0-a367-4090-94fa-b39fc5ffc375</webElementGuid>
+      <webElementGuid>cbdf1bda-91d0-437d-a5db-f83b802e82e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3fc06813-f8f4-4311-8b6d-d172de54fcce</webElementGuid>
+      <webElementGuid>a01b7a8a-3bc7-4cff-aaa3-8124f65e786b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR</value>
-      <webElementGuid>56fed9d7-d5e3-49e1-88a4-a4fca1e61237</webElementGuid>
+      <webElementGuid>77faacb5-d3c3-4e6f-aace-502d274b4b77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>100 Main Street, Auburn, Indiana, USA</value>
-      <webElementGuid>0687ac92-4dec-4ffa-a3a8-a7c25a28f39a</webElementGuid>
+      <webElementGuid>02b9c29d-1979-4316-a18c-4d17b964df81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;addressTypeAhead_contact-jp0dhqd1yn-address-7b9nflk4845-googleAddressAPI_typeaheadDropdownList&quot;)/li[@class=&quot;AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR&quot;]</value>
-      <webElementGuid>2347f08d-2a1b-435a-a913-ef9f631eda52</webElementGuid>
+      <webElementGuid>f7a67087-59f1-4b4f-9e11-7b342b1cd7b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='addressTypeAhead_contact-jp0dhqd1yn-address-7b9nflk4845-googleAddressAPI_typeaheadDropdownList']/li[2]</value>
-      <webElementGuid>14d0a330-a7a1-4134-8bd7-3169e074121a</webElementGuid>
+      <webElementGuid>37cb6d8f-2db6-42d0-b7be-38157b7c9559</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::li[2]</value>
-      <webElementGuid>f2a16434-d56a-4511-9140-2ca9e89cac8f</webElementGuid>
+      <webElementGuid>8194a1dd-9c04-440a-8ec7-6145a7ea4a8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[3]/following::li[2]</value>
-      <webElementGuid>6e1f2ab6-b5d0-4721-b593-d6e89bca3ac7</webElementGuid>
+      <webElementGuid>35fbd7de-2534-456f-9c49-10ed4fc325f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address 2'])[1]/preceding::li[4]</value>
-      <webElementGuid>c455f936-c1ad-4505-ac6d-28de8f27d56f</webElementGuid>
+      <webElementGuid>969b63e8-a247-4010-b2b3-3b9e7480bde7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address 3'])[1]/preceding::li[4]</value>
-      <webElementGuid>879f78e9-b4b8-4990-a73f-11ec7926d237</webElementGuid>
+      <webElementGuid>3f2afdfa-f8ec-4bd2-8894-f32a62346d50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='100 Main Street, Auburn, Indiana, USA']/parent::*</value>
-      <webElementGuid>3258deee-43c4-424e-bd53-669e814a4ead</webElementGuid>
+      <webElementGuid>bf2dd250-9ac2-4663-85a9-24971f85e633</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]</value>
-      <webElementGuid>8a83a48d-0211-470a-9957-09e45570a963</webElementGuid>
+      <webElementGuid>2f2d3a3f-7136-433d-a6b8-18ede6b38f93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = '100 Main Street, Auburn, Indiana, USA' or . = '100 Main Street, Auburn, Indiana, USA')]</value>
-      <webElementGuid>4eae75ca-8008-4229-a5f5-ec4c9fae2689</webElementGuid>
+      <webElementGuid>27f7bca5-f61b-4e72-ab58-34961af21726</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

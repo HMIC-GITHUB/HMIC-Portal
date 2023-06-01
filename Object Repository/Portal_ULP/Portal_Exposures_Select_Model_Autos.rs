@@ -6,12 +6,12 @@
    <elementGuidId>06a78d87-cc2c-497f-a036-e145784e9b75</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-23-option-4</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CAMARO 2LT'])[1]/following::div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='react-select-23-option-4']</value>
+         <key>CSS</key>
+         <value>#react-select-23-option-4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9faf392b-c955-495b-b1ce-356715bb0f2b</webElementGuid>
+      <webElementGuid>7764e685-970d-40b9-a01d-e8f19affe9eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>95761bab-d5ec-4e71-ac59-d95730df46b1</webElementGuid>
+      <webElementGuid>70c2239e-5555-4fbe-8b90-19f949a76fa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-23-option-4</value>
-      <webElementGuid>60c9eab0-546e-45cd-ac13-d213c6174ca2</webElementGuid>
+      <webElementGuid>3ec70c65-6bdf-4ce3-a9cb-25438987ab79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>ee32ff29-9968-4c7a-bdd7-be002c80f127</webElementGuid>
+      <webElementGuid>360abb8d-0b79-4d14-85e6-ff87f3274221</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CAMARO 2SS</value>
-      <webElementGuid>de1effdd-b7a3-4d4e-b6ea-ad2e03b64531</webElementGuid>
+      <webElementGuid>33732d83-922b-484c-9588-02d15f7b2b5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-23-option-4&quot;)</value>
-      <webElementGuid>63b9b91c-acf6-4cfe-b5c1-93b845af0c13</webElementGuid>
+      <webElementGuid>05475213-2af3-421c-8644-bb7d719c277e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-23-option-4']</value>
-      <webElementGuid>411ae85d-d70b-4cc5-9d08-779b5683c733</webElementGuid>
+      <webElementGuid>0f00d4d6-9fd0-4968-81a2-bf21f35d4486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CAMARO 2LT'])[1]/following::div[1]</value>
-      <webElementGuid>9309b571-dcb4-4bf2-acbb-c949b68b40d3</webElementGuid>
+      <webElementGuid>469613af-36ed-4a5b-8f8e-bc7897deb8f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOLT EV PREMIER'])[1]/following::div[2]</value>
-      <webElementGuid>a52bea2a-49ed-4e09-af84-2255bc13469d</webElementGuid>
+      <webElementGuid>0bcaa6f4-308c-4571-be03-33a084a645d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CAMARO LS'])[1]/preceding::div[1]</value>
-      <webElementGuid>ef64728d-bcba-487d-a636-503e66a9d113</webElementGuid>
+      <webElementGuid>a755d1f8-99d4-4ba6-b20f-0d512f1058af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CAMARO LT'])[1]/preceding::div[2]</value>
-      <webElementGuid>6d4bae7f-55a2-4231-b5ae-0c33bf582a70</webElementGuid>
+      <webElementGuid>7b807b9a-9fad-42f4-9886-5ec27c72d772</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CAMARO 2SS']/parent::*</value>
-      <webElementGuid>d95d1665-dda4-4bce-9646-5e3c66bc156c</webElementGuid>
+      <webElementGuid>6479ae19-0b9b-44b6-a2c6-dc73b9ba34bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div[5]</value>
-      <webElementGuid>a6beae29-8683-45d1-bf2c-ec54092edc2b</webElementGuid>
+      <webElementGuid>5c8cd555-d8cc-49df-adfc-d27ab87e573b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-23-option-4' and (text() = 'CAMARO 2SS' or . = 'CAMARO 2SS')]</value>
-      <webElementGuid>70854805-83e1-4bba-b7df-c7715f88252d</webElementGuid>
+      <webElementGuid>2a1c9a48-62b2-4874-a249-954f6b213d5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

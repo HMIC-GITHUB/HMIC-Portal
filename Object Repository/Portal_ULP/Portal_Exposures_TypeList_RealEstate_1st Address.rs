@@ -6,12 +6,12 @@
    <elementGuidId>280fa9dd-a41e-4adb-9c44-a88f182f33ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR.AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::li[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR.AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>79a8ea55-e793-4fb4-ae65-d7354d8d5dab</webElementGuid>
+      <webElementGuid>06543264-be26-4cd8-973b-6e123f6a21e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>1f8c8a5d-f999-4620-b189-83b8e698e819</webElementGuid>
+      <webElementGuid>0a4935db-e4b5-4731-86a0-584adcc83950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>08b824ec-5ce4-4a40-9bcf-941687b118d8</webElementGuid>
+      <webElementGuid>dd2d25c3-955e-46d1-9bbe-635100a37bbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df</value>
-      <webElementGuid>3625c478-73fb-4fe9-b291-380e5829bb6a</webElementGuid>
+      <webElementGuid>9aa899b6-8875-4c29-8a80-54941d19b98c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>3221 West 86th Street, Indianapolis, IN, USA</value>
-      <webElementGuid>43df82ed-2b15-4a32-8735-7d8d0035d1a7</webElementGuid>
+      <webElementGuid>1bd0d316-fe1a-4f97-96da-4b0149286e31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;addressTypeAhead_address-7cvye50n0xx-googleAddressAPI_typeaheadDropdownList&quot;)/li[@class=&quot;AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df&quot;]</value>
-      <webElementGuid>37e5a089-3d42-4f4b-8200-a04e121a4f56</webElementGuid>
+      <webElementGuid>297873e4-8895-46c3-8192-a51eaf7a4c53</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='addressTypeAhead_address-7cvye50n0xx-googleAddressAPI_typeaheadDropdownList']/li</value>
-      <webElementGuid>547f581a-b63a-45ff-ab84-4f1757391708</webElementGuid>
+      <webElementGuid>22953ce1-508b-4da7-a41f-06c828b9f71f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::li[1]</value>
-      <webElementGuid>651201b7-8fbc-4211-993b-9aedf3b4081c</webElementGuid>
+      <webElementGuid>033ad7b9-f9a6-4303-8a2a-6bf39cd9e90f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::li[1]</value>
-      <webElementGuid>3282f150-6c66-44e2-b941-08572c940aa0</webElementGuid>
+      <webElementGuid>9f311dfd-378b-4d7d-bd51-61411342a99f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address 2'])[1]/preceding::li[5]</value>
-      <webElementGuid>47140a78-14d1-405d-ae01-af8cde47759f</webElementGuid>
+      <webElementGuid>5637ba0c-01b4-403c-b28b-fc0bb5c6a548</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/preceding::li[5]</value>
-      <webElementGuid>0e33f0b7-61de-49d1-8afa-5f71dc0f583e</webElementGuid>
+      <webElementGuid>b796fe31-a7a2-4b8d-9eac-8608f2e22d20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='3221 West 86th Street, Indianapolis, IN, USA']/parent::*</value>
-      <webElementGuid>d78a3389-91e2-4b6e-83c1-9fdad72fc9f6</webElementGuid>
+      <webElementGuid>cf007da6-de7d-4bf2-b8fa-853dd2327ad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li</value>
-      <webElementGuid>be99ebfe-2154-4e38-a9f6-e4d0ade04a54</webElementGuid>
+      <webElementGuid>56a0d2af-3688-47e2-9790-535f5a21d0a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = '3221 West 86th Street, Indianapolis, IN, USA' or . = '3221 West 86th Street, Indianapolis, IN, USA')]</value>
-      <webElementGuid>52b5c25b-c9b1-413b-acff-65e473b43df9</webElementGuid>
+      <webElementGuid>4467960f-ede8-484f-9957-b3dac3f01ae3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>3bc72bb4-35a9-4dcb-a332-9c1b0735aaed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-9-option-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='react-select-9-option-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-9-option-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e253a706-5c04-4512-8865-fdf35f502d3a</webElementGuid>
+      <webElementGuid>5373ff8c-5cd7-46d2-839c-1706cb6ed9fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>b1777e4e-f2e5-468d-8506-9b0a18337110</webElementGuid>
+      <webElementGuid>12fff5b4-75ff-4748-8b27-143d911ffdba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-9-option-1</value>
-      <webElementGuid>8e1d83a8-27a9-4132-9929-dfe25f6f2f43</webElementGuid>
+      <webElementGuid>7f553616-87cb-4c26-b3bc-ba8539d49232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>9145626a-8b03-43ec-bdbe-048a59051b2d</webElementGuid>
+      <webElementGuid>878ce3df-9f43-4bc2-a551-6530587513b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$2,000,000</value>
-      <webElementGuid>994dbfb4-d45d-474d-aadd-c1b98a41da28</webElementGuid>
+      <webElementGuid>bfd7a4d1-4ff6-49ad-941f-67f36a20886a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-9-option-1&quot;)</value>
-      <webElementGuid>90f0afaa-760f-4b06-85c1-c11567a77cb1</webElementGuid>
+      <webElementGuid>93cf58dd-a87a-454c-94e8-6e968b8c2359</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-9-option-1']</value>
-      <webElementGuid>ea6ab7ac-f323-4433-acf1-456ff011d591</webElementGuid>
+      <webElementGuid>0534144b-366f-4f28-bf18-c95407629598</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,000,000'])[2]/following::div[1]</value>
-      <webElementGuid>aafcddc0-2581-4005-96f8-e774e52b6248</webElementGuid>
+      <webElementGuid>55951804-f49c-4e3b-a811-91c89fc83663</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'react-select-9-option-1', '&quot;', ')')])[1]/following::div[6]</value>
-      <webElementGuid>e3999e3b-fea4-461a-bb0d-e511ed99ced4</webElementGuid>
+      <webElementGuid>67cef109-c45d-4f61-b520-294765ecaa86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$3,000,000'])[1]/preceding::div[1]</value>
-      <webElementGuid>d0cfc90b-d141-4bc4-8a5a-32d7e3391cff</webElementGuid>
+      <webElementGuid>e575e09c-7ca7-4f48-9921-75f5d50fe1a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='$2,000,000']/parent::*</value>
-      <webElementGuid>5f36bd5a-8564-49cc-8e60-3293a8b03f40</webElementGuid>
+      <webElementGuid>deb0d4ed-2327-4967-927e-7d172cc0058c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/div[2]</value>
-      <webElementGuid>db134d70-c83e-44ed-b688-4656fcd018a7</webElementGuid>
+      <webElementGuid>f5cc92e1-85b7-4f41-b06b-0caa489926f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-9-option-1' and (text() = '$2,000,000' or . = '$2,000,000')]</value>
-      <webElementGuid>8c235b52-7c86-44e9-98e3-979f636b335d</webElementGuid>
+      <webElementGuid>5c5e568b-09f3-4846-89df-e7ad0a2fa927</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

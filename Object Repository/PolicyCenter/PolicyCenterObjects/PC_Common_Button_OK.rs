@@ -6,12 +6,11 @@
    <elementGuidId>542e9775-f38c-4140-9d99-5f7dfd3bf46b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id='submit']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@id,'-Update')]//div[@class='gw-label']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

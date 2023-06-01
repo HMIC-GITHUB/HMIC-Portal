@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_PrimaryPolicy_Select_TypeOfPolicy</name>
+   <name>Portal_PolicyInfo_Select_VIPDiscount_Quantum</name>
    <tag></tag>
-   <elementGuidId>db343033-ec8d-493d-9ac8-2d5eba7b76f1</elementGuidId>
+   <elementGuidId>edeb5381-552f-42bb-81ad-e22dd924834c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-15-option-3</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pinnacle'])[1]/following::div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='react-select-15-option-3']</value>
+         <key>CSS</key>
+         <value>#react-select-12-option-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a947ac35-e580-4a2b-954e-15d38fdfeda8</webElementGuid>
+      <webElementGuid>2f65e475-dd61-45bd-8103-6bf7a1096c62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>05fe0750-5382-46d7-bf6e-a95ba11854f5</webElementGuid>
+      <webElementGuid>625a58db-6cce-47b4-884a-7c7584605d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-15-option-3</value>
-      <webElementGuid>ef724154-af0d-4caf-bed8-c700de122a19</webElementGuid>
+      <value>react-select-12-option-3</value>
+      <webElementGuid>4ba6dc5b-7295-42c5-af1a-3d8bdcaa80ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,78 +46,70 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>743e0826-ca4f-4e70-9303-6df5c2fd2171</webElementGuid>
+      <webElementGuid>6dfb0424-585b-49aa-9a57-3fcc9ed9055f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Employer's Liability</value>
-      <webElementGuid>41b23516-1080-4dd2-9b3b-213ec082c091</webElementGuid>
+      <value>Quantum</value>
+      <webElementGuid>5e6dfd70-1529-4d12-b7d4-0bf3cb4caee8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-15-option-3&quot;)</value>
-      <webElementGuid>2b9d2528-f28a-48fd-9677-14ac8d02d2d8</webElementGuid>
+      <value>id(&quot;react-select-12-option-3&quot;)</value>
+      <webElementGuid>45a1f1a1-8dda-4eaf-a784-e43d95f0189b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='react-select-15-option-3']</value>
-      <webElementGuid>9f8d2bbc-de2e-4bb2-b40d-c7c28ecc05b8</webElementGuid>
+      <value>//div[@id='react-select-12-option-3']</value>
+      <webElementGuid>e008b5b9-23a9-44b6-8f2d-ff4bb6048cee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprehensive Personal Liability'])[1]/following::div[1]</value>
-      <webElementGuid>b68354bc-31af-4c80-b2f2-80b58b944e53</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pinnacle'])[1]/following::div[1]</value>
+      <webElementGuid>594a3cd7-61cd-4ef9-a11f-ca6e2012df8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Liability'])[1]/following::div[2]</value>
-      <webElementGuid>4b6543d9-ccce-4e95-9580-c3f92eb698f6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APEX'])[1]/following::div[2]</value>
+      <webElementGuid>54f511c4-3d1a-4825-a7a8-2ecc6e210de5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recreational Vehicles'])[1]/preceding::div[1]</value>
-      <webElementGuid>ce07249a-678c-45d8-b60f-8cf30f4302de</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watercraft'])[1]/preceding::div[2]</value>
-      <webElementGuid>9e27d0ed-7ff6-4f70-8501-4ee550c24db9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Quantum']/parent::*</value>
+      <webElementGuid>50dfb97b-8c76-4826-ae4f-0af2c492a2d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div[4]</value>
-      <webElementGuid>2bc0e101-18d1-4efd-908a-101d2049eb84</webElementGuid>
+      <value>//div[6]/div/div/div[4]</value>
+      <webElementGuid>4076d1b0-dc77-45ab-880e-b8e7005d74f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'react-select-15-option-3' and (text() = concat(&quot;Employer&quot; , &quot;'&quot; , &quot;s Liability&quot;) or . = concat(&quot;Employer&quot; , &quot;'&quot; , &quot;s Liability&quot;))]</value>
-      <webElementGuid>90bf0dc6-0cf5-4023-b6b3-a8395ec1b3bf</webElementGuid>
+      <value>//div[@id = 'react-select-12-option-3' and (text() = 'Quantum' or . = 'Quantum')]</value>
+      <webElementGuid>552597af-3452-40c3-9c10-99d81b648949</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

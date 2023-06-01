@@ -6,12 +6,11 @@
    <elementGuidId>e92a7662-4168-437d-b086-1c6c7e0858b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='vipDiscount-wrapper']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>85c76b83-6cdc-443f-9bd0-8edca725ccd0</webElementGuid>
+      <webElementGuid>fe101a03-ff58-4895-8876-df8dc5584da0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1wy0on6</value>
-      <webElementGuid>fd21ab2c-197c-4052-8775-c7d0640b7823</webElementGuid>
+      <webElementGuid>6dbb9bf3-0049-4ff0-8992-078e7f1fab2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vipDiscount-wrapper&quot;)/div[@class=&quot;jut__GenericSelectControl__control jut__GenericSelectControl__controlFocused&quot;]/div[@class=&quot;css-1wy0on6&quot;]</value>
-      <webElementGuid>a7884203-af9d-415a-8a86-921696771906</webElementGuid>
+      <webElementGuid>938fa430-091d-4314-bc7c-2fa567699c98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vipDiscount-wrapper']/div/div[2]</value>
-      <webElementGuid>ab576944-96ab-499e-b887-8d9f4b5a9e6a</webElementGuid>
+      <webElementGuid>b9f927aa-9ad9-4b7f-ad98-5b5fa5d5fd89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/following::div[1]</value>
-      <webElementGuid>5a3e8371-4206-41f6-95ab-00c08fcbbbba</webElementGuid>
+      <webElementGuid>4aba3263-a867-4459-9d32-b7ab06d2946b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='VIP Discount'])[2]/following::div[7]</value>
-      <webElementGuid>8b950663-d6a8-4fb7-8923-a3c1cfa7f184</webElementGuid>
+      <webElementGuid>a68843ca-c78b-4a3d-8bc3-3c30abd4ceef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Producer'])[1]/preceding::div[2]</value>
-      <webElementGuid>cc323e2f-4362-417c-8a55-f223e546ff55</webElementGuid>
+      <webElementGuid>2879b66d-7fd8-40bc-91cb-ea56ac54dbff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agency Code'])[1]/preceding::div[2]</value>
-      <webElementGuid>2bab4faa-54c9-48c1-96f9-a7fb87302dc2</webElementGuid>
+      <webElementGuid>a0fcaf88-a8bb-4c85-9db6-5f9c143c54d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div[2]/div/div/div/div[2]</value>
-      <webElementGuid>d4cfa665-e19d-4ea5-9c8e-7494f33e391b</webElementGuid>
+      <webElementGuid>410c0af0-8345-4bcb-b411-5238cf6ee8f3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -108,7 +108,7 @@ WebUI.comment('Enter Primary Policy details')
 
 WebUI.click(findTestObject('Portal_ULP/Portal_PrimaryPolicy_TypeList_TypeOfPolicy'))
 
-WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PrimaryPolicy_Select_TypeOfPolicy'))
+WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PrimaryPolicy_Select_TypeOfPolicy_EmpLiability'))
 
 WebUI.setText(findTestObject('Object Repository/Portal_ULP/Portal_PrimaryPolicy_CompanyName'), 'SAM AGENCIES')
 
@@ -179,7 +179,7 @@ WebUI.comment('Enter General Information')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Portal_ULP/Portal_GeneralInformation_Button_NextQuote'))
+WebUI.click(findTestObject('Portal_ULP/Portal_GeneralInfo_btn_NextQuote'))
 
 WebUI.comment('Validate Quote Information')
 
@@ -195,7 +195,7 @@ WebUI.click(findTestObject('Portal_ULP/Portal_CompleteApplication_Button_NextPay
 
 WebUI.comment('Enter Payment Details')
 
-WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Payment_Radiobtn_PaymentPlans_Monthly'))
+WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Payment_Radbtn_PayPlans_Monthly'))
 
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Payment_CheckBox_DeferDownPayment'))
 

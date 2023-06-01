@@ -6,12 +6,12 @@
    <elementGuidId>152fd55c-50d4-47a5-91aa-2f8a3a56cea8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#save</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='save']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#save</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>00ee8467-d532-41e3-b027-b9d9528caa34</webElementGuid>
+      <webElementGuid>26803e1c-94a0-4e6b-8df7-83a2925cac9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fe5ad61e-b15a-4341-859e-b1a1282d9329</webElementGuid>
+      <webElementGuid>dd65b585-1117-4999-9c52-1ffac1951fb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicButton__button jut__Button__button jut__Button__primary jut__Button__large</value>
-      <webElementGuid>067b1ba7-edf7-432a-9d93-8423fc28d1d2</webElementGuid>
+      <webElementGuid>c27e02ae-20ca-4c22-ade4-91054146daf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>save</value>
-      <webElementGuid>977f73e4-ffd9-448e-b7d5-6b17a381984c</webElementGuid>
+      <webElementGuid>a51da432-c35a-4398-9aad-93b8cf192be8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add Account</value>
-      <webElementGuid>27cbec50-25d2-47bd-8960-3627a59e74ea</webElementGuid>
+      <webElementGuid>bc9e713b-6de6-4c8f-ae41-525b14d724fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;save&quot;)</value>
-      <webElementGuid>2f87e6ca-cb86-400f-bda8-2b353bbeebae</webElementGuid>
+      <webElementGuid>aa00b4cb-2f11-4dca-9700-39513390f52a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='save']</value>
-      <webElementGuid>7a5da5d9-6657-443b-9b5e-2b6801e70ce1</webElementGuid>
+      <webElementGuid>ce3b71a0-81fa-4afd-b3d3-e7d846811bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[4]/button[2]</value>
-      <webElementGuid>d363e296-b690-4749-a4aa-1aaf8fca3913</webElementGuid>
+      <webElementGuid>3ae80f83-9ee1-4320-9e21-1ec5b60c6586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>2f6d3aa6-770c-4aea-ac9f-427ddef304b2</webElementGuid>
+      <webElementGuid>8366b082-7b66-405a-a2e1-a499eccd3446</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Producer Code'])[1]/following::button[2]</value>
-      <webElementGuid>ccaf7154-ef3e-4efd-955c-0df1385096fb</webElementGuid>
+      <webElementGuid>f474b2fc-2b18-4ab0-ae8a-633c315466d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'save', '&quot;', ')')])[1]/preceding::button[1]</value>
-      <webElementGuid>e3a08eea-366e-4079-84df-4ccd9070b9ce</webElementGuid>
+      <webElementGuid>ab94b1c4-cdae-4c13-b10c-2a05887b62cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>1b35fcc6-971c-4532-b7a4-8a8793df9b27</webElementGuid>
+      <webElementGuid>3d9502d5-a5f3-4e3b-8ea4-5a0c8f175cf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'save' and (text() = 'Add Account' or . = 'Add Account')]</value>
-      <webElementGuid>5306134a-b9d1-4f7d-89b7-b138d2ddb3ae</webElementGuid>
+      <webElementGuid>736ea8b8-97bb-45a9-81a6-262c688e3259</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

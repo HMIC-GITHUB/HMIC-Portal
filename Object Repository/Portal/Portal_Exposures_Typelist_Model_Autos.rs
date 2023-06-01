@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Portal_Exposures_Typelist_Model_Autos</name>
+   <tag></tag>
+   <elementGuidId>b9b68a53-5327-4025-8c3e-e5e3259f0d95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Model']/../../..//div[contains(@class,' css-1hwfws3')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.dynamicGenericSelectControl__placeholder.jut__GenericSelectControl__placeholder.css-1wa3eu0-placeholder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a377850a-9877-4130-9deb-91eabecc748c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dynamicGenericSelectControl__placeholder jut__GenericSelectControl__placeholder css-1wa3eu0-placeholder</value>
+      <webElementGuid>e60a8106-698c-4db9-81df-2aa47f5e7f6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Model</value>
+      <webElementGuid>792ed74c-e3fa-4a79-93e6-d22a2c0f965c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;model-wrapper&quot;)/div[@class=&quot;jut__GenericSelectControl__control jut__GenericSelectControl__controlFocused&quot;]/div[@class=&quot;css-1hwfws3&quot;]/div[@class=&quot;dynamicGenericSelectControl__placeholder jut__GenericSelectControl__placeholder css-1wa3eu0-placeholder&quot;]</value>
+      <webElementGuid>9dda6fb1-10d9-4893-8687-1cc4b16d6623</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='model-wrapper']/div/div/div</value>
+      <webElementGuid>999df128-d814-4dbe-99cb-8b6d8559443e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Model'])[1]/following::div[6]</value>
+      <webElementGuid>535410e3-1da1-49b6-ad6f-5c59d1b1d046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CHEVROLET'])[1]/following::div[11]</value>
+      <webElementGuid>76c36395-e02f-4469-8a75-e21205c15637</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[5]</value>
+      <webElementGuid>03ebd077-4df0-4a0e-8770-35d4f6a54ddd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Auto'])[1]/preceding::div[7]</value>
+      <webElementGuid>dee655b4-d8c7-49bc-8ffa-57950ddc7658</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>f6071c6a-3766-41bb-8952-3847b483e5fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Model' or . = 'Model')]</value>
+      <webElementGuid>9189ab3b-e219-473f-8384-dc6ff69437c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
