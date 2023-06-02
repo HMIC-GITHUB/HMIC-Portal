@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Full Pay</name>
+   <tag></tag>
+   <elementGuidId>343b179e-9acf-411c-bc64-c99c426d2766</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='billingAndPaymentsCard']/div/div[2]/table/tbody/tr/td/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.jut__RadioButton__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>6f4d9559-f061-49da-8d26-6152da79a803</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>paymentPlan_0_ab_full_pay</value>
+      <webElementGuid>8754f3a5-f337-42aa-8a9a-403c11dd2fb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jut__RadioButton__label</value>
+      <webElementGuid>0734495a-4a58-4917-9b42-71f2521ef487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Full Pay</value>
+      <webElementGuid>d713fba4-f8dd-44a2-a42e-f67b70ae985e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billingAndPaymentsCard&quot;)/div[1]/div[@class=&quot;dynamicTable__table jut__Table__table jut__Table__hoverable hmic__Table__default hmic__Table__alternatingRowColorsFlipped PaymentStep_dataTable__2o3PO&quot;]/table[@class=&quot;jut__Table__tableElement&quot;]/tbody[1]/tr[@class=&quot;jut__Table__row&quot;]/td[@class=&quot;dynamicTable__tableCell jut__Table__tableCell text-left&quot;]/div[@class=&quot;dynamicRadioButton__radioButton jut__RadioButton__radioButton jut__Table__radio&quot;]/label[@class=&quot;jut__RadioButton__label&quot;]</value>
+      <webElementGuid>22f023ea-901d-4f7a-a1a2-c6404ba4bd33</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='billingAndPaymentsCard']/div/div[2]/table/tbody/tr/td/div/label</value>
+      <webElementGuid>aed05c25-04a5-4e29-a600-5750b9d27be2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::label[1]</value>
+      <webElementGuid>21feeb21-5944-48e2-829a-d0ecb9178c36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Installments'])[1]/following::label[1]</value>
+      <webElementGuid>e7bf864a-ec8c-4920-8e95-626b309fe8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$184.00'])[2]/preceding::label[1]</value>
+      <webElementGuid>d6d62ae4-30a9-4837-af73-14996b26e9bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/label</value>
+      <webElementGuid>47c10f4c-ef29-4ea7-ad7c-5c208468e9c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Full Pay' or . = ' Full Pay')]</value>
+      <webElementGuid>46c93ed8-76e6-4789-b992-3e0194c4a6f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

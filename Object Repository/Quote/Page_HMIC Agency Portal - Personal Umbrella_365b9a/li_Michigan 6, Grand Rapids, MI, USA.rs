@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Michigan 6, Grand Rapids, MI, USA</name>
+   <tag></tag>
+   <elementGuidId>772ae6ee-0abd-4a2f-9c4b-dc1ff0c1f53f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR.AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='addressTypeAhead_contact-awbktxmdbhl-address-2u07t0dtc8k-googleAddressAPI_typeaheadDropdownList']/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>38cc9bf6-0ce7-4a35-8029-eca2029e7412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>b71c96a2-a190-47ae-a005-d3f18e1f0ef6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>90d3066e-6a99-4c1d-a37e-2cd7841aef98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df</value>
+      <webElementGuid>82d83f5d-e061-4273-8aab-3e968b5cc77a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Michigan 6, Grand Rapids, MI, USA</value>
+      <webElementGuid>bed5fed3-3793-4f22-8a90-a05008cbd1fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addressTypeAhead_contact-awbktxmdbhl-address-2u07t0dtc8k-googleAddressAPI_typeaheadDropdownList&quot;)/li[@class=&quot;AddressLookupTypeaheadComponent_gw-typeahead__match__BO7BR AddressLookupTypeaheadComponent_gw-typeahead__match_active__3f9Df&quot;]</value>
+      <webElementGuid>fd0d59ff-878c-4021-9a49-0b08ebe64982</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='addressTypeAhead_contact-awbktxmdbhl-address-2u07t0dtc8k-googleAddressAPI_typeaheadDropdownList']/li</value>
+      <webElementGuid>bf945138-979b-4730-9075-9863616ac70f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::li[1]</value>
+      <webElementGuid>f82f5784-bc8e-48c9-8903-8f89b2d42474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[3]/following::li[1]</value>
+      <webElementGuid>0e7485c8-2c20-4ef8-8baa-b7ae7e84eb0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Michigan Street Northeast, Grand Rapids, MI, USA'])[1]/preceding::li[1]</value>
+      <webElementGuid>a61e48df-60b6-42d1-9e7a-143e9dd8d8ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Michigan Street Northwest, Grand Rapids, MI, USA'])[1]/preceding::li[2]</value>
+      <webElementGuid>3f065dcf-2eb0-4f7c-bf3b-ada2da04395c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Michigan 6, Grand Rapids, MI, USA']/parent::*</value>
+      <webElementGuid>cc5cf674-c79a-454e-a37e-6268051bdabb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>84d29817-e836-47ea-890d-ec829b2145dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Michigan 6, Grand Rapids, MI, USA' or . = 'Michigan 6, Grand Rapids, MI, USA')]</value>
+      <webElementGuid>27d6ed7d-756a-49f3-91b4-28bfaadce926</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
