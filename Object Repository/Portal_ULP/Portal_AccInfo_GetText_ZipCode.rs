@@ -6,11 +6,11 @@
    <elementGuidId>9f4f4a9a-fbe3-45de-a674-55a65befe600</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[text()='ZIP Code']/../../..//input[@class='dynamicInput__input jut__InputField__input']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

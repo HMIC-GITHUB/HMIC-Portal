@@ -6,11 +6,11 @@
    <elementGuidId>20d7a70a-cb03-4290-a84a-31ca11fe9171</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//i[@class='fas fa-plus-circle jut__Button__icon jut__Button__leftIcon']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

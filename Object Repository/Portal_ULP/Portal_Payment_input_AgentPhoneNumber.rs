@@ -6,11 +6,11 @@
    <elementGuidId>fab0a75f-7fea-40ad-ba02-0ba33c77d143</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id = 'agentPhoneNumber']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

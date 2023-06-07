@@ -33,14 +33,14 @@
       <variableId>9336eff4-ce75-4a73-b238-2286296e993b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Katalon Files/StateWiseExecution/MIStateExecution')</defaultValue>
+      <defaultValue>findTestData('Katalon Files/StateWiseExecution/AllStateExecution')</defaultValue>
       <description></description>
       <id>7eec354f-4d12-41b7-a799-8627ef865b88</id>
       <masked>false</masked>
       <name>Address</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Katalon Files/StateWiseExecution/MIStateExecution')</defaultValue>
+      <defaultValue>findTestData('Katalon Files/StateWiseExecution/AllStateExecution')</defaultValue>
       <description></description>
       <id>e0211cd2-6376-484e-a0c2-2adc945f234f</id>
       <masked>false</masked>

@@ -6,11 +6,11 @@
    <elementGuidId>5ef1410a-c9cb-428b-bb98-d47499aa0843</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div/ul[contains(@id,'googleAddressAPI_typeaheadDropdownList')]/li[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

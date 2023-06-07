@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Model']/../../..//div[contains(@class,' css-1hwfws3')]</value>
+         <value>//div[@id='model-wrapper']/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a377850a-9877-4130-9deb-91eabecc748c</webElementGuid>
+      <webElementGuid>07f6ef46-226f-41eb-b62a-b1b578517b26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__placeholder jut__GenericSelectControl__placeholder css-1wa3eu0-placeholder</value>
-      <webElementGuid>e60a8106-698c-4db9-81df-2aa47f5e7f6c</webElementGuid>
+      <webElementGuid>f2ee4160-3037-4b3a-b067-282a1e8cc3ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Model</value>
-      <webElementGuid>792ed74c-e3fa-4a79-93e6-d22a2c0f965c</webElementGuid>
+      <webElementGuid>5405fbc4-d41c-4aba-b0f9-6987cb12f1dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;model-wrapper&quot;)/div[@class=&quot;jut__GenericSelectControl__control jut__GenericSelectControl__controlFocused&quot;]/div[@class=&quot;css-1hwfws3&quot;]/div[@class=&quot;dynamicGenericSelectControl__placeholder jut__GenericSelectControl__placeholder css-1wa3eu0-placeholder&quot;]</value>
-      <webElementGuid>9dda6fb1-10d9-4893-8687-1cc4b16d6623</webElementGuid>
+      <webElementGuid>996f99c3-3e72-4f8b-9296-6a41f33138ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,55 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='model-wrapper']/div/div/div</value>
-      <webElementGuid>999df128-d814-4dbe-99cb-8b6d8559443e</webElementGuid>
+      <webElementGuid>0731ecf8-a7a1-4500-89ea-fc19e43c7ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Model'])[2]/following::div[6]</value>
+      <webElementGuid>29c556a0-a5ec-437e-9d9f-4836d4c105af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BMW'])[1]/following::div[11]</value>
+      <webElementGuid>75419213-c438-445a-ae58-03f069f5eb40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[5]</value>
+      <webElementGuid>0c6a537b-396d-4887-975d-a2d3a8d77d8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[5]</value>
+      <webElementGuid>a0732c42-2184-434f-925b-f25d72f89a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>5a3e9eee-ef30-4328-b010-daee7a8413e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Model' or . = 'Model')]</value>
+      <webElementGuid>e7034ff6-3a4c-4aee-8c24-9f2731838749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,31 +125,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[5]</value>
-      <webElementGuid>03ebd077-4df0-4a0e-8770-35d4f6a54ddd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Auto'])[1]/preceding::div[7]</value>
       <webElementGuid>dee655b4-d8c7-49bc-8ffa-57950ddc7658</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div[2]/div/div/div/div/div</value>
-      <webElementGuid>f6071c6a-3766-41bb-8952-3847b483e5fd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Model' or . = 'Model')]</value>
-      <webElementGuid>9189ab3b-e219-473f-8384-dc6ff69437c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -64,11 +64,13 @@ WebUI.setText(findTestObject('Object Repository/Portal_ULP/Portal_AccInfo_TextBo
 
 WebUI.sendKeys(findTestObject('Portal_ULP/Portal_AccInfo_TextBox_Address'), Keys.chord(Keys.SPACE))
 
-WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_AcctInfo_TypeList_1stAddress'))
+WebUI.click(findTestObject('Portal_ULP/Portal_AccInfo_TypeList_ILState_1stAddress'))
 
 WebUI.waitForPageLoad(10)
 
 String zip = WebUI.getAttribute(findTestObject('Portal_ULP/Portal_AccInfo_GetText_ZipCode'), 'value')
+
+println(zip + '......................')
 
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_AcctInfo_Dropdown_ProducerCode'))
 
@@ -78,7 +80,7 @@ WebUI.click(findTestObject('Portal_ULP/Portal_AccInfo_ProducerTypeList_0010-NiPe
 
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_AcctInfo_Button_AddAccount'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_AccInfo_StandardizeAddress_Button_Continue'))
+WebUI.click(findTestObject('Portal_ULP/Portal_AccInfo_StandardizeAddress_Button_Continue'), FailureHandling.OPTIONAL)
 
 GlobalVariable.AccountNumber = WebUI.getText(findTestObject('Portal_ULP/Portal_AccInfo_NewAccountCreated_Label_AccountNum'))
 
@@ -152,9 +154,18 @@ WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_CheckB
 
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_UMUIM_Accept_Autos'))
 
-if (zip.equals('54956')) {
+if (zip.contains('54913')) {
     WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos' //WebUiBuiltInKeywords.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos'))
             ))
+
+    println('*****************************')
+}
+
+if (zip.contains('50010')) {
+    WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos' //WebUiBuiltInKeywords.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos'))
+            ))
+
+    println('*****************************')
 }
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_TypeList_Year_Autos'))

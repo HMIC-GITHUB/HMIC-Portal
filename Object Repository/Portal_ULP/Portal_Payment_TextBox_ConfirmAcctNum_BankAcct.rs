@@ -6,11 +6,11 @@
    <elementGuidId>f8beef94-e5cf-4c2e-98d3-e85131f39b3c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[text()='Confirm Account #']/../../..//input[@id='baConfirm']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

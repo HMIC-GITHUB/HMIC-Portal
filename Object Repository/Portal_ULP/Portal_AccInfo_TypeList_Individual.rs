@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='react-select-2-option-1']</value>
+         <value>//*/text()[normalize-space(.)='Individual']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7d16a494-cbd0-408c-b6e8-f4faf65e386d</webElementGuid>
+      <webElementGuid>49d6235e-39b7-4c60-b4db-0a02a3f3ff04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>c16d0360-cd9c-49df-9180-a67e1b085dc9</webElementGuid>
+      <webElementGuid>d25c9639-6aab-4868-aa8c-5774d3379ada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-2-option-1</value>
-      <webElementGuid>40bdd916-033b-445f-9516-e00bf24b6cbd</webElementGuid>
+      <webElementGuid>6e5f5df7-a8de-4cc8-a5a0-3f9555f8e440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>6b75865a-930d-453c-b508-0768eacb2a02</webElementGuid>
+      <webElementGuid>71842941-f559-4362-92a5-c93036bcd0a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Individual</value>
-      <webElementGuid>611769de-e701-4849-9ef8-be96082f3c64</webElementGuid>
+      <webElementGuid>28b2d1f6-5968-43e8-a7cd-2f99e1a9b3aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-2-option-1&quot;)</value>
-      <webElementGuid>64ec60bf-8263-45cd-8fbd-7c0b0e514309</webElementGuid>
+      <webElementGuid>f3d98aaa-198f-462b-b98e-cd713216a8ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-2-option-1']</value>
-      <webElementGuid>faa94ce7-f58a-4b7e-9bd8-7e808a58f507</webElementGuid>
+      <webElementGuid>8d05d3a2-e757-479e-adc0-b05a3dbee3c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[2]/following::div[1]</value>
-      <webElementGuid>81c8fedc-c000-49ee-9933-58737f7ca03b</webElementGuid>
+      <webElementGuid>de517769-cc8d-4b29-90a1-b7d3225ebaa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'react-select-2-option-1', '&quot;', ')')])[1]/following::div[5]</value>
-      <webElementGuid>d45ec613-8c96-4c7a-8c7e-d81b3852d696</webElementGuid>
+      <webElementGuid>bf883b6f-2a6f-4fb1-a05a-4c7dc646376f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Number'])[1]/preceding::div[1]</value>
-      <webElementGuid>b517bea5-e023-47dc-9af2-1ab33eb2dea3</webElementGuid>
+      <webElementGuid>cf329e7d-15bb-4dcf-870f-5841455131e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Individual']/parent::*</value>
-      <webElementGuid>3a71dd27-561e-4482-8e61-0b6fb920503b</webElementGuid>
+      <webElementGuid>a1a7ce44-5e6b-47ac-bc8b-9f54cd94b05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div[2]</value>
-      <webElementGuid>9dbc1dae-d77a-457a-b6d7-0aa3e3441e18</webElementGuid>
+      <webElementGuid>641b9f8a-2f31-4715-b31d-bdf05d3e9513</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-2-option-1' and (text() = 'Individual' or . = 'Individual')]</value>
-      <webElementGuid>14f1327a-b58a-4fb5-a63e-6e472f173bb8</webElementGuid>
+      <webElementGuid>bbc1536d-3ef5-4398-8578-5afcfe220294</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

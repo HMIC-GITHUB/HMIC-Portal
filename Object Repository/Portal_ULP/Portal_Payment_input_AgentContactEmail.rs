@@ -6,11 +6,11 @@
    <elementGuidId>0e35224b-2df2-4856-b9c8-8cea3fad0e93</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id = 'agentContactEmail']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

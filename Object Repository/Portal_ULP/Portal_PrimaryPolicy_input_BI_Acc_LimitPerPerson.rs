@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5af1cba3-2262-4b32-bf3b-391a62afbeab</webElementGuid>
+      <webElementGuid>cfde381e-5223-47c6-9b1f-016c30c461c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>perPerson</value>
-      <webElementGuid>7a9ce75a-19d2-4eee-8e37-728441e289c0</webElementGuid>
+      <webElementGuid>13cbd943-1557-4889-858a-469f0d62ab42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>28c92bec-8693-4af2-abc4-8879582a26fd</webElementGuid>
+      <webElementGuid>ec363af4-1e2f-4734-b635-363373a32669</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicInput__input jut__InputField__input</value>
-      <webElementGuid>fbaa79a2-dac7-42d0-bcc2-0babe670899c</webElementGuid>
+      <webElementGuid>85cc63b3-2c6f-4312-b562-96da91aa5c6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>091dd3dc-007e-42c0-a4d2-d8cbab0603fc</webElementGuid>
+      <webElementGuid>bf8f1ee5-fefd-4a7c-97de-4c06efe1aa4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8387bd3a-4721-4433-896a-3867ead49247</webElementGuid>
+      <webElementGuid>4c2c8395-ef6d-442d-974f-dd0d6b6bfb7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>perPerson_1440013438</value>
-      <webElementGuid>502ab21f-49a6-450c-aec9-13ab5cf62dca</webElementGuid>
+      <webElementGuid>c5d9be62-a571-4708-b75c-20b26004f85c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>500,000</value>
-      <webElementGuid>cdf02b79-7c40-462b-9991-c48f66c96f12</webElementGuid>
+      <webElementGuid>d62d61ec-1f90-4b88-ba2d-90c1feb7b3f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,15 +86,23 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>500,000</value>
-      <webElementGuid>07b3a60f-08d0-4250-addb-ce41131260d0</webElementGuid>
+      <webElementGuid>3a8bb3af-b5ca-4057-aba5-c7c652106410</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[1]/div[@class=&quot;PrimaryPolicy_panelWrapper__YB748&quot;]/div[1]/div[@class=&quot;InputList_editMode__3LmDi InputList_editContainer__1i18K&quot;]/div[@class=&quot;PolicyDetailsForm_form__1shYS&quot;]/div[3]/div[@class=&quot;AccidentLimits_limitFields__24GXz&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/input[@id=&quot;perPerson&quot;]</value>
-      <webElementGuid>896a24da-16ff-4bbf-875b-9f4fc71aea69</webElementGuid>
+      <value>id(&quot;perPerson&quot;)</value>
+      <webElementGuid>07902c67-9bc8-4913-bd82-218bca9eb194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>inputmode</name>
+      <type>Main</type>
+      <value>decimal</value>
+      <webElementGuid>8ecc24eb-e852-4f1f-bd63-f321cf1e4c3c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='perPerson']</value>
-      <webElementGuid>be4dfe7c-ea7b-4721-befd-fe99af55d3cb</webElementGuid>
+      <webElementGuid>14b0d070-251e-4073-b14f-d53a409bf848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/input</value>
-      <webElementGuid>725ce0e0-ef4c-411f-90fb-4d5c02fc5c6f</webElementGuid>
+      <webElementGuid>5b3c11ff-0f6d-44ac-99eb-a623d9d9c9b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div[2]/div/div/input</value>
-      <webElementGuid>8b35e3f3-a8bb-4448-965c-414c903d118a</webElementGuid>
+      <webElementGuid>dbfe067b-d71c-4668-9229-02e591186a82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'perPerson' and @type = 'text' and @placeholder = '500,000']</value>
-      <webElementGuid>6f109b98-8841-49f7-b57a-72d05a654b2b</webElementGuid>
+      <webElementGuid>41b67e75-c7d8-4689-9259-0717d729d8d6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

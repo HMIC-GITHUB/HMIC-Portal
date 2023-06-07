@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>22f31e6c-e7e7-46de-af1e-8fd569c1ebe7</webElementGuid>
+      <webElementGuid>7fcfd4be-350b-4da9-b611-9692ccf4d806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jut__CheckboxField__checkboxElement</value>
-      <webElementGuid>ac9bb5c6-3b19-4ece-a0b8-0ba253fcd09f</webElementGuid>
+      <webElementGuid>a426aeb5-c789-454c-b14f-388551a02c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Real Estate</value>
-      <webElementGuid>7e73896c-35e4-4e85-8390-3e50fd2254d8</webElementGuid>
+      <webElementGuid>01864465-d648-485c-acae-a32d52e0ad09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>617ad8d7-36d6-4799-a0de-31bcca0847cc</webElementGuid>
+      <webElementGuid>3a7ebbd2-b29d-44ab-b020-dc6c48903220</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>f6f4cda0-9431-4db8-b0cd-e95b2a88dfc5</webElementGuid>
+      <webElementGuid>5274c0b0-297b-4601-a2de-7b26e3a098bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cbdc3927-7c69-4c46-90be-5fa052700396</webElementGuid>
+      <webElementGuid>2fea5d08-d2bc-4ead-abb3-b7801ffddc2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[@class=&quot;Exposures_form__3Ll82&quot;]/div[@class=&quot;Exposures_form__3Ll82&quot;]/div[1]/div[1]/div[@class=&quot;FieldSet_container__3odpU&quot;]/div[@class=&quot;jut__FieldComponent__fieldComponent smallOverline&quot;]/div[@class=&quot;jut__FieldComponent__contentContainer jut__FieldComponent__controls&quot;]/div[@class=&quot;jut__CheckboxField__checkbox&quot;]/span[@class=&quot;jut__CheckboxField__checkboxElement&quot;]</value>
-      <webElementGuid>57159a95-a913-4786-b068-77e906dcf26e</webElementGuid>
+      <webElementGuid>9b3ea2f0-fc1b-42be-885e-bb71709fac92</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/div/div/div/span</value>
-      <webElementGuid>5f4f906d-ec47-430b-bdbc-871e83e5acdc</webElementGuid>
+      <webElementGuid>1ed9da59-af67-4514-8961-9ea33da1fc93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/div/div/div/span</value>
-      <webElementGuid>39e9d56c-7568-4a36-b8bc-e4c18bd9e2c1</webElementGuid>
+      <webElementGuid>5fdfefc5-d190-418b-a1e9-8967053ffa6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

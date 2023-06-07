@@ -6,11 +6,11 @@
    <elementGuidId>d07ee9d0-db8b-4b4d-8406-2c83e6db51c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[text()='Submit Payment']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

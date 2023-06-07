@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button/span/span</value>
+         <value>//*[contains(@class,'dynamicButton__button jut__Button__button jut__Button__secondary colorAccent')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>859cf5d0-14af-4c1d-951e-c1337ca5b056</webElementGuid>
+      <webElementGuid>88c6c19e-0ec4-4293-a09a-a498b42c2063</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>0b3dc037-de37-4fc1-a166-2a858731b266</webElementGuid>
+      <webElementGuid>80b33db8-8b1b-4209-90b3-bff919d1e835</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;PageContainer_standard__3bPCs&quot;]/div[@class=&quot;QuoteWizard_container__3EESf&quot;]/div[1]/div[@class=&quot;Wizard_bottomContainer__3lWO5&quot;]/div[2]/div[1]/div[@class=&quot;WizardPanel_body__21TLo&quot;]/div[1]/div[@class=&quot;PrimaryPolicy_panelWrapper__YB748&quot;]/div[1]/div[@class=&quot;InputList_editMode__3LmDi InputList_editContainer__1i18K&quot;]/div[@class=&quot;InputList_footer__3xTo_&quot;]/div[@class=&quot;InputList_buttons__1nrg2&quot;]/button[@class=&quot;dynamicButton__button jut__Button__button jut__Button__secondary colorAccent&quot;]/span[1]/span[1]</value>
-      <webElementGuid>eb8b29ba-4855-4c3e-99c3-a1c04ad498b8</webElementGuid>
+      <webElementGuid>371da603-dc6d-44f6-aea4-b0aab00df1a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button/span/span</value>
-      <webElementGuid>98945304-8780-4907-a2e1-f71e0f9ac9d3</webElementGuid>
+      <webElementGuid>4c187098-36d5-4f99-b1ad-cbb0c31d4f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Damage'])[1]/following::span[2]</value>
-      <webElementGuid>47c8226e-0d8e-4851-85cb-bf5cde4bc3a3</webElementGuid>
+      <webElementGuid>4e57fe4d-2611-478d-97c6-539ce2b51bf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Limit Per Accident'])[2]/following::span[4]</value>
-      <webElementGuid>b76dce59-d9ea-471a-ad85-8add9b7c838d</webElementGuid>
+      <webElementGuid>e8b4e36f-6b02-4eef-a7e7-73d4f7e3da8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Policy'])[1]/preceding::span[1]</value>
-      <webElementGuid>f28d58f3-8b2e-44a2-a54f-1ef218a6d486</webElementGuid>
+      <webElementGuid>e7c4a357-a395-4f61-83ec-50b0227a2b43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::span[3]</value>
-      <webElementGuid>c7d3c3e2-e722-4f89-8712-3ad839b4fb0a</webElementGuid>
+      <webElementGuid>7c157657-585d-471e-9962-519288270ad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
-      <webElementGuid>b12b6914-77e1-4c3a-b466-de08a5e4e211</webElementGuid>
+      <webElementGuid>d5f9c881-0e8b-4b41-a695-dbe24a7e0dec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button/span/span</value>
-      <webElementGuid>0be64157-ae39-48ef-bc8e-5c797e584486</webElementGuid>
+      <webElementGuid>38e3a4f6-79f5-4c12-9452-459bd628d212</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>12ed4fb5-966b-41d4-8db2-ca040006ad45</webElementGuid>
+      <webElementGuid>39d4d953-9143-409c-b6df-9040bd13f84b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

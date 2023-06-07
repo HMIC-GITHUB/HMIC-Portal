@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>04d7f36c-0681-4eaa-95ae-c5464b7b3582</webElementGuid>
+      <webElementGuid>86758c45-dfab-43a2-b116-5ffa48d2353a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>9259bee0-1fe8-4d38-8dbf-7075ac6398e7</webElementGuid>
+      <webElementGuid>0b487366-0b3d-4435-a3c9-e08c7c69071f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-8-option-2</value>
-      <webElementGuid>24bafc5f-80f7-4590-9cff-5a98c72e42fb</webElementGuid>
+      <webElementGuid>52bb20c7-5b50-49f0-bb5d-1184210a58b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>12182027-b576-4a96-8032-3bd102fea6af</webElementGuid>
+      <webElementGuid>46f7e7d2-353f-4dd8-a42c-9bf1409ed643</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0055-ShWatts 020590055SharonWatts</value>
-      <webElementGuid>f2501fcf-3fc2-4d00-a3fc-118b45280ff8</webElementGuid>
+      <webElementGuid>ca09f0a6-c332-451d-ac57-4abdb9001918</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-8-option-2&quot;)</value>
-      <webElementGuid>123a42cb-6d5e-4d4d-a885-ae4a51299f02</webElementGuid>
+      <webElementGuid>97046019-ecae-4162-a7f9-d190162c9f1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-8-option-2']</value>
-      <webElementGuid>e3ae0831-df38-4f0c-9c99-510177d1a09c</webElementGuid>
+      <webElementGuid>aa388b5d-1120-46ea-9a28-6e889eaf7ae5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please Select'])[2]/following::div[2]</value>
-      <webElementGuid>a1ab176e-2a58-450a-b96c-7ffc11221414</webElementGuid>
+      <webElementGuid>75db2b46-1c88-4990-a5c0-b17e250a0135</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'react-select-8-option-2', '&quot;', ')')])[1]/following::div[6]</value>
-      <webElementGuid>a9febf30-96e3-4abd-bc50-1a421ed8a032</webElementGuid>
+      <webElementGuid>6144c12d-1e74-4669-902e-35c888accad3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='0055-ShWatts 020590055SharonWatts']/parent::*</value>
-      <webElementGuid>ad52498f-56e3-4d60-8d2d-70032a412b4e</webElementGuid>
+      <webElementGuid>2ea3ae48-e235-434f-ba1f-fbcd28a22851</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div[3]</value>
-      <webElementGuid>4d842fd6-4cf4-4244-8715-5615fb6d4da0</webElementGuid>
+      <webElementGuid>934e65dd-2b2a-474c-a3a9-9668b97f6854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-8-option-2' and (text() = '0055-ShWatts 020590055SharonWatts' or . = '0055-ShWatts 020590055SharonWatts')]</value>
-      <webElementGuid>ee738365-18ad-4c27-a92c-95a9066dd9ad</webElementGuid>
+      <webElementGuid>528f8ac0-d16b-464f-9458-da150ec657ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

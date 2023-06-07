@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>674d6494-c19a-4506-a7cb-a563d71d5f72</webElementGuid>
+      <webElementGuid>38cfeba0-3960-4bf0-a646-61a4b2c10768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>includeUmUim_Accept</value>
-      <webElementGuid>be00e99c-9599-4422-9f5d-a46138f6e540</webElementGuid>
+      <webElementGuid>4ae4899f-5e6b-46eb-b496-e8e7bcc70ad0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>11f88aa4-9945-44f2-b629-ea4c0ee7e7ac</webElementGuid>
+      <webElementGuid>62ced81a-7f91-4fff-9bde-40a1920c9b0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jut__RadioButton__label</value>
-      <webElementGuid>5f4bb610-3afe-45de-9e2a-744a877bcff6</webElementGuid>
+      <webElementGuid>dc0dba0c-072b-4c9e-9630-c85f097d77fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accept</value>
-      <webElementGuid>03471320-a74a-48f0-b685-0fd7ed0fa60c</webElementGuid>
+      <webElementGuid>37e16ab3-7363-4b9f-a284-40a7b2857fba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;includeUmUim&quot;)/div[@class=&quot;dynamicRadioButton__radioButton jut__RadioButton__radioButton&quot;]/label[@class=&quot;jut__RadioButton__label&quot;]</value>
-      <webElementGuid>cafe8f09-011c-445e-af49-38b2619a8951</webElementGuid>
+      <webElementGuid>89f13d7d-d836-4749-afa3-b63e37a4a8c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='includeUmUim']/div/label</value>
-      <webElementGuid>d7f79106-8ad2-4873-8bd5-7ac0ee7503db</webElementGuid>
+      <webElementGuid>70a6d6b0-5569-4db2-804c-80a47c46564e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Include UM / UIM Coverage?'])[1]/following::label[1]</value>
-      <webElementGuid>8de2d5fa-6e9c-4fea-83ce-4d712136c94d</webElementGuid>
+      <webElementGuid>148cf512-9c88-45c1-9163-992f3ef9ac0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Autos'])[1]/following::label[2]</value>
-      <webElementGuid>a5d06b85-997a-483a-a209-1d3075943bcd</webElementGuid>
+      <webElementGuid>f8adef76-f238-49d1-a607-4ca8079a1fa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Decline'])[1]/preceding::label[1]</value>
-      <webElementGuid>ee1b34c6-e41b-4f6e-8cb4-d085cb6ecfa8</webElementGuid>
+      <webElementGuid>bd101894-3b2d-4a61-ac2b-69158997402f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/label</value>
-      <webElementGuid>aa9f26b0-f39a-4118-8388-d0ccb5693916</webElementGuid>
+      <webElementGuid>6c726f11-59fb-4777-853a-1848c3ed58c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Accept' or . = 'Accept')]</value>
-      <webElementGuid>f1da5f72-afc9-4b8b-80d3-2b1dcd103167</webElementGuid>
+      <webElementGuid>9bf7fd61-1e4f-47b2-9952-83649cb3884e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

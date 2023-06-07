@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f687e873-5b45-4149-a19d-55a79ddfebc5</webElementGuid>
+      <webElementGuid>d15f1068-4258-4ba3-b033-6a8559efd901</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-8lc6ki-option</value>
-      <webElementGuid>fc4ccc03-4186-4101-95e7-e01eaea23beb</webElementGuid>
+      <webElementGuid>5d2a568f-639f-46af-bc99-616ab12ae6ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-2-option-10</value>
-      <webElementGuid>0e169634-294a-4348-99b3-ff5dd2bc49a5</webElementGuid>
+      <webElementGuid>e2d69d24-bbf4-4fa6-9ca2-1f7f94084111</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>0f0709f7-701e-4a9e-8d6f-b8189de1e40f</webElementGuid>
+      <webElementGuid>5e319eee-f4e3-4ae5-8a08-ee0617b1ebd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Personal Umbrella</value>
-      <webElementGuid>12b54e60-22c9-461e-83c5-cc57b64a5d63</webElementGuid>
+      <webElementGuid>94bb2d96-f9b8-41ff-bc0f-3db63676277c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-2-option-10&quot;)</value>
-      <webElementGuid>b23c949b-19dc-47be-8611-e2b7a962def1</webElementGuid>
+      <webElementGuid>b888ebff-6169-4551-b129-b0b9d0ad238a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-2-option-10']</value>
-      <webElementGuid>8b68d189-72ce-41ff-9d5b-10ca0bcb1fbd</webElementGuid>
+      <webElementGuid>ca2e6210-7acf-4cba-88d0-3a18e63a27d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mainContainer']/div[2]/div[2]/div/div/div[2]/div/div[11]</value>
-      <webElementGuid>2a7162b6-bad1-44a1-92d7-722d602483f0</webElementGuid>
+      <webElementGuid>c984f0cf-1706-4011-8594-94dfe6579a67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Auto'])[1]/following::div[1]</value>
-      <webElementGuid>e92d9f84-52d4-4672-8dcc-f3a4f61cfe42</webElementGuid>
+      <webElementGuid>2c32dfc6-32d1-48ff-a16e-7aa1b062f7b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Homeowners'])[1]/following::div[2]</value>
-      <webElementGuid>1438113a-c0b5-4576-90f7-3fd1695f84ec</webElementGuid>
+      <webElementGuid>3bb8d0f8-9da2-466e-a94c-03fb7dc05421</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Workers Compensation'])[1]/preceding::div[1]</value>
-      <webElementGuid>05433bc7-f1b2-4c5c-8d50-5f4fe5e5c6dc</webElementGuid>
+      <webElementGuid>8d5a5aa1-afe3-4693-b806-cdcfe90d295c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select...'])[2]/preceding::div[2]</value>
-      <webElementGuid>bb98f6c4-658b-4791-af29-919ace3012d3</webElementGuid>
+      <webElementGuid>49fe585b-7c70-4b92-843e-185284d12277</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Personal Umbrella']/parent::*</value>
-      <webElementGuid>a7ac65f5-e2e9-42f6-bb5f-cea74182e884</webElementGuid>
+      <webElementGuid>430b5a29-6299-468d-afc0-3e8fdde7629a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]</value>
-      <webElementGuid>e057a8a4-c7c0-4feb-8fe9-047f276a73e0</webElementGuid>
+      <webElementGuid>d9237e4e-db47-42a0-8eb7-1352fadf7c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-2-option-10' and (text() = 'Personal Umbrella' or . = 'Personal Umbrella')]</value>
-      <webElementGuid>0e67b1ea-7aaa-4179-a177-e48e4362cbe7</webElementGuid>
+      <webElementGuid>855e8966-f76a-4ce3-9883-29986cf5b0f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
