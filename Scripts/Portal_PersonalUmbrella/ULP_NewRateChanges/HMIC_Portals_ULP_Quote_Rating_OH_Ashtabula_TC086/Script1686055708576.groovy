@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.testng.Assert as Assert
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.eclipse.persistence.jpa.jpql.Assert as RandomStringUtils
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Portal_Pages/Portal_CommonScreens/Portal_Login'), [('Portal_Username') : 'adminuser2059'
@@ -43,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_TypeList_Ind
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_FirstName'), 'Auto_FirstName')
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(
+WebUI.setText(findTestObject('Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(
         5))
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_ZipCode'), ZipCode)
@@ -394,13 +397,39 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_GeneralInfo_btn_Next
 
 WebUI.comment('Validate Quote Information')
 
-List<String> residencesData = new ArrayList<String>()
+List<Integer> residencesData = new ArrayList<Integer>()
+
+List<Integer> autosData = new ArrayList<Integer>()
+
+List<Integer> countyData = new ArrayList<Integer>()
+
+List<Integer> antiqueData = new ArrayList<Integer>()
 
 residencesData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Residences')
 
-for(int i = 0;i<residencesData.size();i++) {
-	println(residencesData.get(i)+"...................")
-}
+autosData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Autos')
+
+countyData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Ashtabula')
+
+antiqueData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Antique')
+
+boolean status
+
+status = CustomKeywords.'myPack.Portal_ULP_Utility.checkResidencePremium'(residencesData)
+
+Assert.assertTrue(status, 'Residences Premium has been calculated accurately')
+
+status = CustomKeywords.'myPack.Portal_ULP_Utility.checkAutoPremium'(autosData)
+
+Assert.assertTrue(status, 'Autos Premium has been calculated accurately')
+
+status = CustomKeywords.'myPack.Portal_ULP_Utility.checkOHCountyPremium'(countyData, 'Ashtabula')
+
+Assert.assertTrue(status, 'County Premium has been calculated accurately')
+
+status = CustomKeywords.'myPack.Portal_ULP_Utility.checkAntiqueAutoPremium'(antiqueData)
+
+Assert.assertTrue(status, 'Antique Auto Premium has been calculated accurately')
 
 WebUI.takeFullPageScreenshot()
 
@@ -409,78 +438,4 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_QuotePage_Button_Pro
 WebUI.comment('Enter Complete Application Information ')
 
 WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Portal/Portal_CompleteApplication_Button_NextPayment'))
-
-WebUI.comment('Enter Payment Details')
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_TypeList_BillingMethod'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payments_BillingMethod_Select_Automatic'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_BillingMethod_Select_Automatic'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Radbtn_PayPlans_Quarterly'))
-
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_AddNewPaymentMethod'))
-
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_radbtn_BankAcct_PaymentMthd'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_Routing_BankAcct'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.sendKeys(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_Routing_BankAcct'), Keys.chord('072404320'))
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_AcctNum_BankAcct'), '123456700')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_ConfirmAcctNum_BankAcct'), '123456700')
-
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_Save_BankAcct'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
-
-WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaytMethod_DownPay'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaytMethod_DownPay'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Chkbox_ChangeAtRenewal'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Renewal_TypeList_BillMthd'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_BillMthd_Select_Direct'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Renewal_TypeList_PayPlan'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_PayPlan_Select_SemiAnnual'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_input_AgentContactName'), 'Tom Curran')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_input_AgentContactEmail'), 'vmoturi@hastingsmutual.com')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_input_AgentPhoneNumber'), '+1 (800) 555-5555')
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Button_Submit'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_SubmitPayment_PlzConfirm_Popup'))
-
-WebUI.takeFullPageScreenshot()
-
-GlobalVariable.PolicyNumber = WebUI.getText(findTestObject('Object Repository/Portal/Portal_SubSuccess_Label_PolicyNum'))
 

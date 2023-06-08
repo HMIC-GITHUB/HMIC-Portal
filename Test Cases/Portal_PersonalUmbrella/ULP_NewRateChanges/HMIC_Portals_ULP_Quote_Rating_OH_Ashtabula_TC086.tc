@@ -5,27 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6ce6f8d5-6120-42f3-b61c-8ba5be56fdac</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>52e4a3a1-a625-4ab0-8e56-3c2da2fedc59</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Katalon Files/StateWiseExecution/OHStateExecution</testDataId>
-   </testDataLinks>
-   <variableLinks>
-      <testDataLinkId>52e4a3a1-a625-4ab0-8e56-3c2da2fedc59</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Address</value>
-      <variableId>19871f5b-a91a-48b1-b73f-c04c98c14281</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>52e4a3a1-a625-4ab0-8e56-3c2da2fedc59</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>ZipCode</value>
-      <variableId>4aeaf4cd-6729-44d0-a997-eccf6b12f4e5</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>findTestData('Katalon Files/StateWiseExecution/OHStateExecution')</defaultValue>
       <description></description>

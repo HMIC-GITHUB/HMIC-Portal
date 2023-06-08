@@ -32,22 +32,156 @@ public class Portal_ULP_Utility {
 
 		WebDriver driver = DriverFactory.getWebDriver()
 
-		List<String> cellText = new ArrayList()
+		List<Integer> cellText = new ArrayList()
+
+		int premium
 
 		List<WebElement> rows_data = driver.findElements(By.xpath("//td[contains(text(),'"+coverageName+"')]/following-sibling::td"))
 
 		for(int i = 0; i< rows_data.size(); i++) {
 
-			String data = rows_data.get(i).getText()
+			String data = rows_data.get(i).getText().replace('$', '')
 
-			if(!(data.isEmpty())) {
+			//println(data+"....................")
 
-				println("Data available in the " +coverageName+ " is..............." + data)
+			if(data.isEmpty()) {
+				continue
 
-				cellText.add(data)
+			}
+			else {
+				premium = Integer.parseInt(data)
+			}
+
+			//println(premium+".....................")
+
+			if(premium != null) {
+
+				//println("Data available in the " +coverageName+ " is..............." + data)
+
+				cellText.add(premium)
 			}
 		}
 
 		return cellText
+	}
+
+	@Keyword
+	def checkResidencePremium(List<Integer> residenceData) {
+
+		int totalNum = residenceData.get(0)
+		int actualPremium = residenceData.get(1)
+		println(actualPremium+"...................................")
+		println(totalNum+".................................")
+		int baseRate = 16
+		int expectedPremium = (totalNum - 1)*baseRate
+		println(expectedPremium+"***************************")
+
+		if(actualPremium == expectedPremium) {
+			println("Portal generated premium which is: "+ actualPremium +"matches with expected premium: "+expectedPremium )
+			return true;
+		}
+		else {
+			println("Portal generated premium which is: "+ actualPremium +" does not match with expected premium: "+expectedPremium )
+			return false;
+		}
+	}
+
+	@Keyword
+	def checkAutoPremium(List<Integer> autosData) {
+
+		int totalNum = autosData.get(0)
+		int actualPremium = autosData.get(1)
+		println(actualPremium+"...................................")
+		println(totalNum+".................................")
+		int baseRate = 33
+		int expectedPremium = (totalNum - 2)*baseRate
+		println(expectedPremium+"***************************")
+
+		if(actualPremium == expectedPremium) {
+			println("Portal generated premium which is: "+ actualPremium +"matches with expected premium: "+expectedPremium )
+			return true;
+		}
+		else {
+			println("Portal generated premium which is: "+ actualPremium +" does not match with expected premium: "+expectedPremium )
+			return false;
+		}
+	}
+
+	@Keyword
+	def checkOHCountyPremium(List<Integer> countyData, String countyName) {
+
+		int actualPremium = countyData.get(0)
+		int expectedPremium
+		println(actualPremium+"...................................")
+		if(countyName == 'All Other Counties') {
+			expectedPremium = 170
+		}
+		else if(countyName == 'Ashtabula') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Cuyahoga') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Franklin') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Hamilton') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Lucas') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Mahoning') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Montgomery') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Summit') {
+			expectedPremium = 192
+		}
+		else if(countyName == 'Trumbull') {
+			expectedPremium = 192
+		}
+		else {
+			println("please select a valid county")
+		}
+
+		if(actualPremium == expectedPremium) {
+			println("Portal generated premium which is: "+ actualPremium +"matches with expected premium: "+expectedPremium )
+			return true;
+		}
+		else {
+			println("Portal generated premium which is: "+ actualPremium +" does not match with expected premium: "+expectedPremium )
+			return false;
+		}
+
+	}
+	
+	@Keyword
+	def checkAntiqueAutoPremium(List<Integer> antiqueData) {
+
+		int totalNum = antiqueData.get(0)
+		int actualPremium = antiqueData.get(1)
+		println(actualPremium+"...................................")
+		println(totalNum+".................................")
+		int baseRate = 16
+		int base = 27
+		int expectedPremium
+		if(totalNum == 1) {
+			expectedPremium = base
+		}
+		else {
+			expectedPremium = (totalNum-1)*baseRate + base
+		}
+		println(expectedPremium+"***************************")
+		if(actualPremium == expectedPremium) {
+			println("Portal generated premium which is: "+ actualPremium +"matches with expected premium: "+expectedPremium )
+			return true;
+		}
+		else {
+			println("Portal generated premium which is: "+ actualPremium +" does not match with expected premium: "+expectedPremium )
+			return false;
+		}
 	}
 }
