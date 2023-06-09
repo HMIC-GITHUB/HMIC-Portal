@@ -101,7 +101,7 @@ WebUI.click(findTestObject('Portal_ULP/Portal_PolicInfo_TypeList_County'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Select_County_OH_Ashtabula'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Select_County_OH_Hamilton'))
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_PolicyInfo_Occupation'), 'ENGINEER')
 
@@ -409,7 +409,7 @@ residencesData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Res
 
 autosData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Autos')
 
-countyData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Ashtabula')
+countyData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Hamilton')
 
 antiqueData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Antique')
 

@@ -92,13 +92,45 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_TypeList_
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_Select_PolicyLimit'))
 
+WebUI.comment('Add Named Insured')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_btn_AddAnthrInsured'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_PolicyInfo_NameInsd_input_FrstName'), 'JOHN')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_PolicyInfo_NameInsd_input_LastName'), 'WESLEY')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_btn_Insured_Save'))
+
+WebUI.comment('Add Additional Insured')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_btn_AddAnthrInsured'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Radiobtn_AdditionalInsured'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_PolicyInfo_AddlInsured_input_FirstName'), 'SAM')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_PolicyInfo_AddlInsured_input_LastName'), 'JOSEPH')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_PolicyInfo_input_Address_Addlinsured'), Address)
+
+WebUI.waitForPageLoad(10)
+
+WebUI.sendKeys(findTestObject('Portal_ULP/Portal_PolicyInfo_input_Address_Addlinsured'), Keys.chord(Keys.SPACE))
+
+WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_TypeList_ILState_1stAddress'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_btn_Insured_Save'))
+
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_PolicyInfo_Occupation'), 'ENGINEER')
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_PolicyInfo_InsuredsEmployer'), 'SAM JOSEPH')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_TypeList_VIPDiscount'))
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_Select_VIPDiscount'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Select_VIPDiscount_Pinnacle'))
 
 WebUI.takeFullPageScreenshot()
 
@@ -108,7 +140,7 @@ WebUI.comment('Enter Primary Policy details')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_TypeList_TypeOfPolicy'))
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_primaryPolicy_Select_TypeOfPolicy_Watercraft'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PrimaryPolicy_Select_TypeOfPolicy_Recreational Vehicles'))
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_CompanyName'), 'SAM AGENCIES')
 
@@ -292,17 +324,13 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_Button_Nex
 
 WebUI.comment('Enter General Information')
 
-WebUI.click(findTestObject('Portal_ULP/Portal_GeneralInfo_Chkbx_BusinessInHome'))
+WebUI.click(findTestObject('Portal_ULP/Portal_GeneralInfo_Chkbox_ResidenceEmployees'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Portal_ULP/Portal_GeneralInfo_Txtbox_BusinessInHome_NoOfBuss'))
+WebUI.click(findTestObject('Portal_ULP/Portal_GeneralInfo_Txtbox_ResidenceEmployees'))
 
-WebUI.setText(findTestObject('Portal_ULP/Portal_GeneralInfo_Txtbox_BusinessInHome_NoOfBuss'), '4')
-
-WebUI.waitForPageLoad(10)
-
-WebUI.setText(findTestObject('Portal_ULP/Portal_GeneralInfo_Txtbx_BusinessInHome_Explain'), 'Entered for Testing Purpose')
+WebUI.setText(findTestObject('Portal_ULP/Portal_GeneralInfo_Txtbox_ResidenceEmployees'), '4')
 
 WebUI.takeFullPageScreenshot()
 
@@ -322,33 +350,27 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_CompleteApplication_
 
 WebUI.comment('Enter Payment Details')
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_TypeList_BillingMethod'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payments_BillingMethod_Select_Automatic'))
-
-WebUI.waitForPageLoad(10)
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_BillingMethod_Select_Automatic'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Radbtn_PayPlans_Quarterly'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Radbtn_PayPlans_Monthly'))
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_AddNewPaymentMethod'))
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_radbtn_BankAcct_PaymentMthd'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_Routing_BankAcct'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_TextBox_CreditCardNumber'))
 
-WebUI.waitForPageLoad(10)
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_TextBox_CreditCardNumber'), '5499740000000057')
 
-WebUI.sendKeys(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_Routing_BankAcct'), Keys.chord('072404320'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Textbox_CreditCardExpDate'))
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_AcctNum_BankAcct'), '123456700')
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_Textbox_CreditCardExpDate'), '01/29')
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_TextBox_ConfirmAcctNum_BankAcct'), '123456700')
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_TextBox_CreditCardCVV'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_TextBox_CreditCardCVV'), '771')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Textbox_CreditCardZipCode'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_Textbox_CreditCardZipCode'), '43219')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_Save_BankAcct'))
 
