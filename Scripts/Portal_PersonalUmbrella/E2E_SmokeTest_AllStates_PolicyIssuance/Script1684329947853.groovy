@@ -100,7 +100,7 @@ WebUI.setText(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Ins
 
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_TypeList_VIPDiscount'))
 
-WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Select_VIPDiscount'))
+WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Select_VIPDiscount_Apex'))
 
 WebUI.takeFullPageScreenshot()
 
@@ -155,14 +155,14 @@ WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_CheckB
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_UMUIM_Accept_Autos'))
 
 if (zip.contains('54913')) {
-    WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos' //WebUiBuiltInKeywords.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos'))
+    WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_UIM_Accept_Autos' //WebUiBuiltInKeywords.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_UIM_Accept_Autos'))
             ))
 
     println('*****************************')
 }
 
 if (zip.contains('50010')) {
-    WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos' //WebUiBuiltInKeywords.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos'))
+    WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_UIM_Accept_Autos' //WebUiBuiltInKeywords.click(findTestObject('Object Repository/Portal_ULP/Portal_Exposures_Radiobtn_UIM_Accept_Autos'))
             ))
 
     println('*****************************')

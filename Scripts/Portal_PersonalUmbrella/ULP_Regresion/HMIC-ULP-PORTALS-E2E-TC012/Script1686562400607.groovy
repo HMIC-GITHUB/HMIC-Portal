@@ -374,25 +374,23 @@ WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_Textbox_CreditCardZipCod
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_Save_BankAcct'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
 
+WebUI.waitForPageLoad(10)
+
 WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
-
-WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaytMethod_DownPay'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaytMethod_DownPay'))
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Chkbox_ChangeAtRenewal'))
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Renewal_TypeList_BillMthd'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_BillMthd_Select_Direct'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_BillMthd_Select_Agency'))
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Renewal_TypeList_PayPlan'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_PayPlan_Select_SemiAnnual'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_PayPlan_Select_AgencyB_FullPay'))
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Year'])[5]/following::div[5]</value>
+         <value>//*/text()[normalize-space(.)='1954']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fa86e8ff-5358-499f-821b-88791360f6e6</webElementGuid>
+      <webElementGuid>1d4ba948-2c28-471e-a083-61e3d760b181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__option jut__GenericSelectControl__option jut__GenericSelectControl__optionFocused css-1n7v3ny-option</value>
-      <webElementGuid>ba5087f5-989a-432a-8773-61050f22d864</webElementGuid>
+      <webElementGuid>5f758532-8ba9-4a2d-8851-329d25e99831</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-36-option-5</value>
-      <webElementGuid>70bb9b87-7237-404a-8b86-741c8c8dacf1</webElementGuid>
+      <webElementGuid>c4edd9d0-d9f1-4e45-a02c-9e69b767bf7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>6a95f942-7920-4328-9fb9-30794aa1b822</webElementGuid>
+      <webElementGuid>7786013d-6238-448a-bc70-5ef4666cbc65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1954</value>
-      <webElementGuid>03b75342-37e9-4978-94d0-48e5114fc4e3</webElementGuid>
+      <webElementGuid>b1b35bf4-13dd-4371-8f79-b540b701d620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-36-option-5&quot;)</value>
-      <webElementGuid>586572f5-204e-4f4c-8dbd-e68e58eada27</webElementGuid>
+      <webElementGuid>fd0170ae-c06b-4346-b18f-f6b4c6115133</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-36-option-5']</value>
-      <webElementGuid>c9204213-97e6-46f0-af69-7256ae042d2a</webElementGuid>
+      <webElementGuid>91112b26-013c-405a-a5cf-38d90e8b2f52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Year'])[5]/following::div[5]</value>
-      <webElementGuid>49d52961-1816-492c-8211-ecb9cf1b5881</webElementGuid>
+      <webElementGuid>57f1fd92-0f46-4b64-9589-fce99ae3803f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'react-select-36-option-5', '&quot;', ')')])[1]/following::div[15]</value>
-      <webElementGuid>46941e70-2c9a-4037-8fb8-433543d292fa</webElementGuid>
+      <webElementGuid>dfa6554e-9e3b-4f35-bc91-59236ce99370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1954']/parent::*</value>
-      <webElementGuid>1b1acab5-317d-4edb-a967-b35458699233</webElementGuid>
+      <webElementGuid>0f982ec0-abce-4a92-b8aa-e295c6a18588</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div[6]</value>
-      <webElementGuid>bbb9cbe9-d636-480a-bf39-3956d0713bbc</webElementGuid>
+      <webElementGuid>be083584-7fef-4a03-8ae3-233270eede0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-36-option-5' and (text() = '1954' or . = '1954')]</value>
-      <webElementGuid>10bc0125-233e-4d91-aaf0-73539ae107aa</webElementGuid>
+      <webElementGuid>148359cf-a8a2-4e9b-ba42-449ea524d2ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

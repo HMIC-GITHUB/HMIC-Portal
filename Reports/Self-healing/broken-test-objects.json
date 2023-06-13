@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Portal/Portal_PrimaryPolicy_button_Save",
+      "brokenLocator": "//*[contains(@class,\u0027dynamicButton__button jut__Button__button jut__Button__secondary colorAccent\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal/Portal_PrimaryPolicy_button_Save_idRelative.png"
+    }
+  ]
 }

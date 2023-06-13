@@ -6,12 +6,12 @@
    <elementGuidId>c4bdffde-5777-46d2-84f4-810b286c1ecc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-2-option-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Individual']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-2-option-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

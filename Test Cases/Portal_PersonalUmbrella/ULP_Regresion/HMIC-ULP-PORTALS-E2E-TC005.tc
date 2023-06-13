@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HMIC-ULP-PORTALS-E2E-TC012-OH</name>
+   <name>HMIC-ULP-PORTALS-E2E-TC005</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5db52407-64a3-4b57-b689-6e4726bed609</testCaseGuid>
+   <testCaseGuid>3aeca27b-9f8c-4e73-9059-c45d0c52b617</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>52e4a3a1-a625-4ab0-8e56-3c2da2fedc59</id>
@@ -18,25 +18,25 @@
       <testDataLinkId>52e4a3a1-a625-4ab0-8e56-3c2da2fedc59</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Address</value>
-      <variableId>68490761-e76e-4cf8-9087-122e21b82bdd</variableId>
+      <variableId>e6342329-abd2-42cc-a881-7d9ce1bc31ae</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>52e4a3a1-a625-4ab0-8e56-3c2da2fedc59</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>ZipCode</value>
-      <variableId>d123c96a-d253-4e15-a6cf-0896888b0fca</variableId>
+      <variableId>2fbb547f-d69f-4049-9a5b-b9894ea9968c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestData('Katalon Files/StateWiseExecution/OHStateExecution')</defaultValue>
       <description></description>
-      <id>68490761-e76e-4cf8-9087-122e21b82bdd</id>
+      <id>e6342329-abd2-42cc-a881-7d9ce1bc31ae</id>
       <masked>false</masked>
       <name>Address</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Katalon Files/StateWiseExecution/OHStateExecution')</defaultValue>
       <description></description>
-      <id>d123c96a-d253-4e15-a6cf-0896888b0fca</id>
+      <id>2fbb547f-d69f-4049-9a5b-b9894ea9968c</id>
       <masked>false</masked>
       <name>ZipCode</name>
    </variable>

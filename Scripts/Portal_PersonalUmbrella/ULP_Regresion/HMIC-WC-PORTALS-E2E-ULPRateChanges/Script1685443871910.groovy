@@ -94,7 +94,7 @@ WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Selec
 
 WebUI.click(findTestObject('Portal_ULP/Portal_PolicInfo_TypeList_County'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Select_County_ILCook'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Select_County_IL_Cook'))
 
 WebUI.setText(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Occupation'), 'ENGINEER')
 
@@ -102,7 +102,7 @@ WebUI.setText(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Ins
 
 WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_TypeList_VIPDiscount'))
 
-WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Select_VIPDiscount'))
+WebUI.click(findTestObject('Object Repository/Portal_ULP/Portal_PolicyInfo_Select_VIPDiscount_Apex'))
 
 WebUI.takeFullPageScreenshot()
 

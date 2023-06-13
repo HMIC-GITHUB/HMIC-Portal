@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_Exposures_Radiobtn_WI_UIM_Accept_Autos</name>
+   <name>Portal_Exposures_RadioBtn_Autos_IsAntique_NO</name>
    <tag></tag>
-   <elementGuidId>afed3e45-8736-49c4-bd3a-c5dcaa021857</elementGuidId>
+   <elementGuidId>fc677388-a0e5-4608-b307-1f9d7c4309c8</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='jut__RadioButton__text jut__RadioButton__primaryText' and text()='No']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[text()='Include UIM Coverage?']/../../..//span[text()='Accept']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
