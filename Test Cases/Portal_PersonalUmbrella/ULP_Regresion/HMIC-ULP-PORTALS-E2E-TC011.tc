@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HMIC_Portals_ULP_Quote_Rating_OH_Ashtabula_TC086</name>
+   <name>HMIC-ULP-PORTALS-E2E-TC011</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6ce6f8d5-6120-42f3-b61c-8ba5be56fdac</testCaseGuid>
+   <testCaseGuid>2a99b9be-0fbf-4bbd-a89d-cad9a09a4699</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>94faaa66-d414-41cf-896a-c2986c49a22e</id>
+      <id>4699493b-cdff-42f3-9889-013250562b6d</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Katalon Files/StateWiseExecution/WIStateExecution</testDataId>
+      <testDataId>Data Files/Katalon Files/StateWiseExecution/MIStateExecution</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>94faaa66-d414-41cf-896a-c2986c49a22e</testDataLinkId>
+      <testDataLinkId>4699493b-cdff-42f3-9889-013250562b6d</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Address</value>
-      <variableId>19871f5b-a91a-48b1-b73f-c04c98c14281</variableId>
+      <variableId>aa0cb789-96ca-48e8-85b0-1f080e6b296b</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>94faaa66-d414-41cf-896a-c2986c49a22e</testDataLinkId>
+      <testDataLinkId>4699493b-cdff-42f3-9889-013250562b6d</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>ZipCode</value>
-      <variableId>4aeaf4cd-6729-44d0-a997-eccf6b12f4e5</variableId>
+      <variableId>1e974ee2-1b3e-4349-80f1-e8996e6edccb</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestData('Katalon Files/StateWiseExecution/OHStateExecution')</defaultValue>
       <description></description>
-      <id>19871f5b-a91a-48b1-b73f-c04c98c14281</id>
+      <id>aa0cb789-96ca-48e8-85b0-1f080e6b296b</id>
       <masked>false</masked>
       <name>Address</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Katalon Files/StateWiseExecution/OHStateExecution')</defaultValue>
       <description></description>
-      <id>4aeaf4cd-6729-44d0-a997-eccf6b12f4e5</id>
+      <id>1e974ee2-1b3e-4349-80f1-e8996e6edccb</id>
       <masked>false</masked>
       <name>ZipCode</name>
    </variable>

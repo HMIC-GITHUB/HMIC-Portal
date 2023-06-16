@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_PolicyInfo_Select_County_IL_Cook</name>
+   <name>Portal_Exposures_Select_California_Operators_StateIssuance</name>
    <tag></tag>
-   <elementGuidId>85f711bd-dfae-447a-a9b9-50fae61da867</elementGuidId>
+   <elementGuidId>b9453bcd-2587-43bd-ac93-7da0bd3c9c80</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Cook']/parent::*</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='California']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

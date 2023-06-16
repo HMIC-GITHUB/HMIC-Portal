@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.testng.Assert as Assert
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.eclipse.persistence.jpa.jpql.Assert as RandomStringUtils
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Portal_Pages/Portal_CommonScreens/Portal_Login'), [('Portal_Username') : 'adminuser2059'
@@ -43,7 +46,7 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_TypeList_Ind
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_FirstName'), 'Auto_FirstName')
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(
+WebUI.setText(findTestObject('Portal/Portal_AccInfo_TextBox_LastName'), 'LastName' + RandomStringUtils.randomAlphabetic(
         5))
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_ZipCode'), ZipCode)
@@ -78,6 +81,8 @@ WebUI.click(findTestObject('Portal_ULP/Portal_AccInfo_ProducerTypeList_0010-NiPe
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_AcctInfo_Button_AddAccount'))
 
+WebUI.click(findTestObject('Portal_ULP/Portal_AccInfo_StandardizeAddress_Button_Continue'), FailureHandling.OPTIONAL)
+
 WebUI.waitForPageLoad(10)
 
 GlobalVariable.AccountNumber = WebUI.getText(findTestObject('Object Repository/Portal/Portal_AccInfo_NewAccountCreated_Label_AccountNum'))
@@ -88,9 +93,11 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_NewAcctCreat
 
 WebUI.comment('Enter Policy Information')
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_TypeList_PolicyLimit'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicInfo_TypeList_County'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_Select_PolicyLimit'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PolicyInfo_Select_County_WI_Milwaukee'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_PolicyInfo_Occupation'), 'ENGINEER')
 
@@ -102,19 +109,13 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_PolicyInfo_button_Ne
 
 WebUI.comment('Enter Primary Policy details')
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_TypeList_TypeOfPolicy'))
+WebUI.click(findTestObject('Portal_ULP/Portal_PrimaryPolicy_TypeList_TypeOfPolicy'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_PrimaryPolicy_Select_TypeOfPolicy_Other'))
-
-WebUI.setText(findTestObject('Portal_ULP/Portal_PrimaryPolicy_input_OtherPolicyType'), 'GENERAL LIABILITY')
+WebUI.click(findTestObject('Portal_ULP/Portal_PrimaryPolicy_Select_TypeOfPolicy_Comprehensive Personal Liability'))
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_CompanyName'), 'SAM AGENCIES')
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_input_BI_Acc_LimitPerPerson'), '100000')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_input_BI_Acc_LimitPerAccident'), '50000')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_input_PropertyDamage'), '25000')
+WebUI.setText(findTestObject('Portal_ULP/Portal_PrimaryPolicy_input_CombinedSingleLimit'), '100000')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_PrimaryPolicy_button_Save'))
 
@@ -134,17 +135,21 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_TypeList_R
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_NoOfResidences_RealEstate'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Portal/Portal_Exposures_Select_NoOfResidences_RealEstate'))
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Exposures_Select_NoOfResidences_RealEstate'))
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_Select_NoOfResidences_RealEstate'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_NoOfResidences_RealEstate'))
 
 WebUI.setText(findTestObject('Object Repository/Portal/Portal_Exposures_input_OccupancyAndInterest'), 'OWNER')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_Button_Save_RealEstate'))
 
+WebUI.comment('Add Auto_1')
+
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_CheckBox_Autos'))
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_Radiobtn_UMUIM_Accept_Autos'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Radiobtn_UIM_Accept_Autos'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_TypeList_Year_Autos'))
 
@@ -157,6 +162,58 @@ WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Make_Autos'))
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Typelist_Model_Autos'))
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Model_Autos'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Button_Save_Autos'))
+
+WebUI.comment('Add Auto_2')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_btn_AddAuto'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_TypeList_Year_Autos'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Year_Autos_2020'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_TypeList_Make_Autos'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Make_Autos_BMW'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Typelist_Model_Autos'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Model_Autos_BMW_330I XDRIVE'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Button_Save_Autos'))
+
+WebUI.comment('Add Auto_3')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_btn_AddAuto'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_TypeList_Year_Autos'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Year_Autos_2020'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_TypeList_Make_Autos'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Make_Autos_AUDI'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Typelist_Model_Autos'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Select_Model_Autos_AUDI_A3 2.0T SPORT PREMIUM'))
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Button_Save_Autos'))
 
@@ -192,6 +249,92 @@ WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Txtfield
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_btn_SAVE'))
 
+WebUI.comment('Add Other Vehicle_MotorHome')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_btn_AddOtherVeh'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_TypeList_YEAR'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles2_Select_1951_Year'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles2_Select_1951_Year'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Typelist_TYPE'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Select_Motorhome'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Select_Motorhome'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Txtfield_MAKE'), 'FORD')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Txtfield_MODEL'), 'VXI')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_btn_SAVE'))
+
+WebUI.comment('Add Other Vehicle_MotorCycle')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_btn_AddOtherVeh'))
+
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_TypeList_YEAR'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_TypeList_YEAR'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicle3_Select_Year_1951'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicle3_Select_Year_1951'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Typelist_TYPE'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Select_Motorcycle'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Select_Motorcycle'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Txtfield_MAKE'), 'ROVER')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Txtfield_MODEL'), 'GST')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_Txtfield_EngSize'), '200')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_OtherVehicles_btn_SAVE'))
+
+WebUI.comment('Add Watercraft')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Chkbox_Watercraft'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_TypeList_Year'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_Select_Year_1954'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_TypeList_Type'))
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_Select_Type_InBoard'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_input_Manufacturer'), 'FORD')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_input_Model'), 'ECOSPORT')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_input_Length'), '25')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_input_Horsepower'), '500')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_input_MaxSpeed'), '60')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_input_WatersNavigated'), 'LAKE MICHIGAN')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_Watercraft_button_Save'))
+
 WebUI.comment('Add Operator')
 
 WebUI.click(findTestObject('Portal_ULP/Portal_Exposures_CheckBox_Operators'))
@@ -226,11 +369,13 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Exposures_Button_Next General Information'))
 
+WebUI.comment('Enter General Information')
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Portal/Portal_GeneralInfo_btn_NextQuote'))
 
 WebUI.comment('Validate Quote Information')
-
-WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_QuotePage_Button_ProceedAsNewBusiness'))
 
@@ -238,43 +383,55 @@ WebUI.comment('Enter Complete Application Information ')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_CompleteApplication_Button_NextPayment'))
+WebUI.click(findTestObject('Portal_ULP/Portal_CompleteApplication_Button_NextPayment'))
 
 WebUI.comment('Enter Payment Details')
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_TypeList_BillingMethod'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_PayPlan_Radio_FullPay'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_BillingMethod_Select_Agency'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_AddNewPaymentMethod'))
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_PayPlan_Radiobtn_Agency_FullPay'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Chkbox_ChangeAtRenewal'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_radbtn_BankAcct_PaymentMthd'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Renewal_TypeList_BillMthd'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_BillMthd_Select_Direct'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Renewal_TypeList_PayPlan'))
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payments_Ren_PayPlan_Select_SemiAnnual'))
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_input_AgentContactName'), 'Tom Curran')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_input_AgentContactEmail'), 'vmoturi@hastingsmutual.com')
-
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_Payment_input_AgentPhoneNumber'), '+1 (800) 555-5555')
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Button_Submit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_TextBox_Routing_BankAcct'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Payment_btn_SubmitPayment_PlzConfirm_Popup'), FailureHandling.OPTIONAL)
+WebUI.sendKeys(findTestObject('Portal_ULP/Portal_Payment_TextBox_Routing_BankAcct'), Keys.chord('072404320'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_TextBox_AcctNum_BankAcct'), '123456700')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_TextBox_ConfirmAcctNum_BankAcct'), '123456700')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_Save_BankAcct'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.mouseOver(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_input_AgentContactName'), 'Tom Curran')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_input_AgentContactEmail'), 'vmoturi@hastingsmutual.com')
+
+WebUI.setText(findTestObject('Portal_ULP/Portal_Payment_input_AgentPhoneNumber'), '+1 (800) 555-5555')
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SavedPaymentMthd'))
 
 WebUI.takeFullPageScreenshot()
 
-GlobalVariable.PolicyNumber = WebUI.getText(findTestObject('Object Repository/Portal/Portal_SubSuccess_Label_PolicyNum'))
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_Button_Submit'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal_ULP/Portal_Payment_btn_SubmitPayment_PlzConfirm_Popup'), FailureHandling.OPTIONAL)
+
+WebUI.takeFullPageScreenshot()
+
+GlobalVariable.PolicyNumber = WebUI.getText(findTestObject('Portal_ULP/Portal_SubSuccess_Label_PolicyNum'))
 

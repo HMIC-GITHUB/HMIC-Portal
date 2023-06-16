@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_PolicyInfo_Select_County_IL_Cook</name>
+   <name>Portal_Payment_PayPlan_Radio_FullPay</name>
    <tag></tag>
-   <elementGuidId>85f711bd-dfae-447a-a9b9-50fae61da867</elementGuidId>
+   <elementGuidId>17d6d6e2-8354-4b07-b4a7-5063ba2a672a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Cook']/parent::*</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[text()='Full Pay']/../..//input/..//label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

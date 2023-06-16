@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_PolicyInfo_Select_County_IL_Cook</name>
+   <name>Portal_PolicyInfo_Select_County_MI_Genesee</name>
    <tag></tag>
-   <elementGuidId>85f711bd-dfae-447a-a9b9-50fae61da867</elementGuidId>
+   <elementGuidId>554aab92-848c-4fda-838a-1ed60b89b34d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Cook']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Genesee']/parent::*</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

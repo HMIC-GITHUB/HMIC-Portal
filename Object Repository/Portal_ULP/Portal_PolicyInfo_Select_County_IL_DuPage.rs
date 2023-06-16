@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_PolicyInfo_Select_County_IL_Cook</name>
+   <name>Portal_PolicyInfo_Select_County_IL_DuPage</name>
    <tag></tag>
-   <elementGuidId>85f711bd-dfae-447a-a9b9-50fae61da867</elementGuidId>
+   <elementGuidId>cecc13c9-12c6-4cd6-990a-87824b2fa9ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Cook']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='DuPage']/parent::*</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
