@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.deleteAllCookies()
+
 WebUI.maximizeWindow()
 
 WebUI.takeFullPageScreenshot()
@@ -46,3 +48,4 @@ WebUI.waitForElementVisible(findTestObject('Portal/Portal_Common_Header_SearchFo
 WebUI.verifyElementVisible(findTestObject('Portal/Portal_Common_Header_SearchForAccOrPol'))
 
 WebUI.takeFullPageScreenshot()
+

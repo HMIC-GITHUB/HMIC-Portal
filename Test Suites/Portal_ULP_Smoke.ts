@@ -15,7 +15,7 @@
       <guid>dfb5eed9-02ce-457f-9306-2de5b7e20d12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal_PersonalUmbrella/E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c083c1a3-6f38-4f0c-b123-0be6256310bd</id>
@@ -49,7 +49,7 @@
       <guid>6cc10504-ddfd-408e-8662-a006030259ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal_PersonalUmbrella/E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d4c91329-7124-4b66-a561-b26f49c94293</id>
@@ -83,7 +83,7 @@
       <guid>dc4ddc8b-200c-4acb-af06-30a2d25e4599</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal_PersonalUmbrella/E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>52b022f9-8f3e-4579-a69b-5f09c38a5f7b</id>
@@ -117,7 +117,7 @@
       <guid>337cf874-09fc-4074-9207-1efa023357bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal_PersonalUmbrella/E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4221a769-03e0-44e6-92f7-d28ff2eb7f01</id>
@@ -151,7 +151,7 @@
       <guid>b737b867-b54c-40f7-8d52-ce2c1d2345ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal_PersonalUmbrella/E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
+      <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_E2E_SmokeTest_AllStates_PolicyIssuance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

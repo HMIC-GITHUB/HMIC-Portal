@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Org type']/../../..//div[@id='orgType-wrapper']</value>
+         <value>//span[text()='Entity Type']/../../..//div[@id='orgType-wrapper']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

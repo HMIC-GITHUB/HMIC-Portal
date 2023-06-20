@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='classCode-wrapper']/div/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[29]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>0dca494c-955e-4ce4-bcce-3019fcbefae7</webElementGuid>
+      <webElementGuid>35310c02-3cce-4e6d-8794-a133b61032e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dynamicGenericSelectControl__placeholder jut__GenericSelectControl__placeholder css-1wa3eu0-placeholder</value>
-      <webElementGuid>0a8e86e0-6be8-4211-8412-8cf61e572d53</webElementGuid>
+      <webElementGuid>9fb08346-5f78-428c-b62f-7a229aaa00d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Classification</value>
-      <webElementGuid>4be8787a-04c5-4607-bb00-f7b23c4f7868</webElementGuid>
+      <webElementGuid>a85aa60e-b7cf-4e88-9703-feb62abfd26a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;classCode-wrapper&quot;)/div[@class=&quot;jut__GenericSelectControl__control jut__GenericSelectControl__controlFocused jut__LookupField__control&quot;]/div[@class=&quot;css-1hwfws3&quot;]/div[@class=&quot;dynamicGenericSelectControl__placeholder jut__GenericSelectControl__placeholder css-1wa3eu0-placeholder&quot;]</value>
-      <webElementGuid>5aa61499-5968-4d51-aa54-9e1ef851ceb5</webElementGuid>
+      <webElementGuid>42d0c4c9-6ef2-400e-9b77-dcb31d18d90c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='classCode-wrapper']/div/div/div</value>
-      <webElementGuid>d1a3358a-f31b-4cc8-b5c0-6327b6634795</webElementGuid>
+      <webElementGuid>71b75cd6-5620-4952-865e-82112ee53aa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::div[11]</value>
-      <webElementGuid>f89a9c55-3c70-4513-9587-c8d6dbca0008</webElementGuid>
+      <webElementGuid>f8876449-02bb-4bd4-bc08-eff637ede714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Classification'])[1]/preceding::div[28]</value>
-      <webElementGuid>6d757433-e149-4004-a34f-160e4cfdef05</webElementGuid>
+      <webElementGuid>27f8fb38-acea-4f84-90e7-7e4f153ebdd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[29]</value>
-      <webElementGuid>f0030133-f82b-4381-afe9-66711bb94c29</webElementGuid>
+      <webElementGuid>30c61a14-9ccc-4a62-bfde-6072b5c44e67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[4]/div/div/div/div/div/div/div/div/div/div</value>
-      <webElementGuid>83f1a032-a56c-4dd2-a30e-983dc218c4ac</webElementGuid>
+      <webElementGuid>99e3ccbf-2e08-493d-89cb-a905faeb3e6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Classification' or . = 'Classification')]</value>
-      <webElementGuid>7b6ee18a-ef62-4d4d-a701-64cf83b83464</webElementGuid>
+      <webElementGuid>23decd0e-0288-4b0e-9ee6-b7fb899d2f4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

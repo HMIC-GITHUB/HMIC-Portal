@@ -15,7 +15,7 @@
       <guid>761ca2f0-1f54-47de-944a-cdf3cd169fc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Portal_SmokeTest</testCaseId>
+      <testCaseId>Test Cases/Portal_WorkersCompensation/WC_SmokeTest_AllState/Portal_SmokeTest</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

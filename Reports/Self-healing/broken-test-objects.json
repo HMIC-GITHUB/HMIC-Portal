@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal_ULP/Portal_Payments_TypeList_BillingMethod_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Portal_ULP/Portal_Exposures_Select_Make_Autos",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u0027CHEVROLET\u0027]/parent::*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027react-select-22-option-7\u0027 and (text() \u003d \u0027CHEVROLET\u0027 or . \u003d \u0027CHEVROLET\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal_ULP/Portal_Exposures_Select_Make_Autos_BASIC.png"
     }
   ]
 }

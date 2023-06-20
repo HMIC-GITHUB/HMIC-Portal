@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>E2E_SmokeTest_AllStates_PolicyIssuance</name>
+   <name>ULP_E2E_SmokeTest_AllStates_PolicyIssuance</name>
    <tag>@E2E</tag>
    <comment></comment>
    <testCaseGuid>a39f2416-4e33-4605-ae7c-a1623c23ba7f</testCaseGuid>

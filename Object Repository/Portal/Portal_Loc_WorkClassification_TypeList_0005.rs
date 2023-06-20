@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='react-select-19-option-0']/div/div</value>
+         <value>//*/text()[normalize-space(.)='0005 - Farm: Nursery Employees And Drivers']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ce6e6258-7268-4f98-99ff-218ac6d5271b</webElementGuid>
+      <webElementGuid>bef24404-1d43-4aef-b5cb-ce83a543c5aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>jut__LookupField__title</value>
-      <webElementGuid>ed0f6b3c-e873-423c-bad6-7f0fdf9ddfb3</webElementGuid>
+      <webElementGuid>37df5416-945d-48dc-a153-bb8465b574f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>0005 - Farm: Nursery Employees And Drivers</value>
-      <webElementGuid>a7ad16ce-b740-48a4-b57c-46686d6ce5b9</webElementGuid>
+      <webElementGuid>896f01f4-578c-42ad-971c-d95490dc025c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-19-option-0&quot;)/div[@class=&quot;jut__LookupField__item&quot;]/div[@class=&quot;jut__LookupField__title&quot;]</value>
-      <webElementGuid>0fbcd511-d1f2-4066-ad7f-a89856411359</webElementGuid>
+      <webElementGuid>dff6b11d-50d3-4e9d-af3e-1b649f1847ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='react-select-19-option-0']/div/div</value>
-      <webElementGuid>5f1ee81e-057f-47a0-a74f-4980e970f212</webElementGuid>
+      <webElementGuid>1da0bdde-5cdd-4e47-a5ee-c6ca79ceb8f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next: State Coverages'])[2]/following::div[10]</value>
-      <webElementGuid>acf7fedc-c37a-4f56-bf7b-f94c5ad23987</webElementGuid>
+      <webElementGuid>6ade86e8-05d7-4480-a61e-4778ad5e8b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::div[10]</value>
-      <webElementGuid>143003d9-9785-407b-9214-44c25aa142b6</webElementGuid>
+      <webElementGuid>92211449-f991-47fb-9b40-a10e55cee10f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unknown'])[1]/preceding::div[1]</value>
-      <webElementGuid>a83ec9a1-6343-49b5-9a1d-c32447fd5420</webElementGuid>
+      <webElementGuid>9c5b299f-3fd0-4b36-af14-d814d52f5357</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unknown'])[2]/preceding::div[3]</value>
-      <webElementGuid>b849c0cb-2080-4629-b264-fa6c6d40a343</webElementGuid>
+      <webElementGuid>5e489893-6c94-4057-8718-e4de9d9b5239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='0005 - Farm: Nursery Employees And Drivers']/parent::*</value>
-      <webElementGuid>611b684a-27ec-4e94-b6df-8681636585ad</webElementGuid>
+      <webElementGuid>56858cae-cded-409c-a73a-c386a2bb9683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/div/div</value>
-      <webElementGuid>b5f62d82-7de1-438b-93cb-7a11093dbefd</webElementGuid>
+      <webElementGuid>dc2e0521-68c5-412f-82db-70ab5753c08d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '0005 - Farm: Nursery Employees And Drivers' or . = '0005 - Farm: Nursery Employees And Drivers')]</value>
-      <webElementGuid>ea186b52-b41d-422a-ad3a-f4584536f223</webElementGuid>
+      <webElementGuid>af3190eb-2938-4a96-93ef-230b78282d4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
