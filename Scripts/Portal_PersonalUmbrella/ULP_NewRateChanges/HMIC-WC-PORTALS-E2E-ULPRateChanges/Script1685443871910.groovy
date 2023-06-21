@@ -264,7 +264,7 @@ tableData = CustomKeywords.'myPack.Portal_ULP_Utility.getCoverageInfo'('Discount
 
 println(tableData.toString())
 
-//tableData = WebUI.callTestCase(findTestCase('Portal_PersonalUmbrella/Portal_QuotePage_ULP_PremiumValidation'), [:], FailureHandling.STOP_ON_FAILURE)
+//tableData = WebUI.callTestCase(findTestCase('Portal_PersonalUmbrella/ULP_NewRateChanges/Portal_QuotePage_ULP_PremiumValidation'), [:], FailureHandling.STOP_ON_FAILURE)
 /*tableData = WebUI.callTestCase(findTestCase('Portal_PersonalUmbrella/Portal_CommonScreens/Portal_Quote_ULP_ParameterCall_PremValid'), 
     [('') : 'Limit of Liability'], FailureHandling.STOP_ON_FAILURE)
    println(tableData.toString())
