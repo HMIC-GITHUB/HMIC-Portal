@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_Common_Button_NextLineCov</name>
+   <name>Portal_StateCov_Button_NextLineCov</name>
    <tag></tag>
    <elementGuidId>e99a0eea-5646-4460-80d7-a152d8869855</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#next > span > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='next']/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#next > span > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

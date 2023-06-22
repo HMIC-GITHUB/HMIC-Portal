@@ -25,7 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Katalon Files/StateWiseExecution/ILStateExecution</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>931278d7-74af-4775-b255-1ffb7a84a979</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -53,7 +53,7 @@
          </iterationEntity>
          <testDataId>Data Files/Katalon Files/StateWiseExecution/INStateExecution</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>4e8822cc-3557-4cdf-bac2-35d2165c7276</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -81,7 +81,7 @@
          </iterationEntity>
          <testDataId>Data Files/Katalon Files/StateWiseExecution/ILStateExecution</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>7c8ecefa-f23d-48ba-83cd-176221a26d59</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -109,7 +109,7 @@
          </iterationEntity>
          <testDataId>Data Files/Katalon Files/StateWiseExecution/ILStateExecution</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>4eecb423-7541-46a3-9664-1dd20fce30ff</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -128,7 +128,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC003</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -147,7 +147,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC001</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -166,7 +166,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC005</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -185,7 +185,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC008</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -204,7 +204,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC010</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -223,7 +223,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Portal_PersonalUmbrella/ULP_Regresion/HMIC-ULP-PORTALS-E2E-TC011</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

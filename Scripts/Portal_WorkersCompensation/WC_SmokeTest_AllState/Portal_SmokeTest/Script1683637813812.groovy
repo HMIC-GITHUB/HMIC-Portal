@@ -137,9 +137,9 @@ WebUI.waitForElementHasAttribute(findTestObject('Object Repository/Portal/Portal
 
 WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_Cov_Header_Coverages'), 'Step 4: Coverages')
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Common_Button_NextLineCov'))
+WebUI.click(findTestObject('Object Repository/Portal/Portal_StateCov_Button_NextLineCov'))
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_Common_Button_NextSupplementalQues'))
+WebUI.click(findTestObject('Object Repository/Portal/Portal_LineCov_button_NextSupplementalQues'))
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Supplemental_CheckBox_IhaveReviewed'))
 
@@ -158,7 +158,7 @@ GlobalVariable.SubmissionNumber = WebUI.getText(findTestObject('Object Repositor
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Portal/Portal_Common_Button_NextAdditionalInfo'))
+WebUI.click(findTestObject('Portal/Portal_Quote_Button_NextAdditionalInfo'))
 
 WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 7: Additional Info', 10)
 

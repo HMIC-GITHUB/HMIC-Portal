@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Portal_Common_Button_NextAdditionalInfo</name>
+   <name>Portal_StateCov_MI_Radiobtn_WPSC_LightDutyProgram_Yes</name>
    <tag></tag>
-   <elementGuidId>e8e327c6-222d-4e61-8ad7-4a6b11378566</elementGuidId>
+   <elementGuidId>64c127cc-5b93-4008-b1de-d10dd8ddc9af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']//span[text()='Next: Additional Info']</value>
+         <value>//span[contains(text(),'light duty program')]/../../..//span[text()='Yes']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -34,9 +34,10 @@ if (TitleName.contains('Risk Analysis')) {
 
             WebUI.click(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_Common_Button_OK'))
 
-            boolean eleApprove = false
         }
     }
+	
+	boolean eleApprove = false
     
     eleApprove = WebUI.verifyElementPresent(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_RiskAnalysis_Button_Approve'), 
         5, FailureHandling.OPTIONAL)
@@ -52,7 +53,7 @@ if (TitleName.contains('Risk Analysis')) {
 
             WebUI.verifyElementText(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_Label_Title'), 'Risk Approval Details')
 
-            WebUI.click(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_Common_Button_OK'))
+            WebUI.click(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_RiskAnalysis_Button_OK'))
         }
     }
 }

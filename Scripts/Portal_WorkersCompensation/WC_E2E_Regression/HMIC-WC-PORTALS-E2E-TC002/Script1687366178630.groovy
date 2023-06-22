@@ -143,7 +143,7 @@ WebUI.click(findTestObject('Portal/Portal_StateCov_MI_Chkbox_ExpRating'))
 
 WebUI.click(findTestObject('Portal/Portal_StateCov_MI_input_ExpRating'))
 
-WebUI.setText(findTestObject('Portal/Portal_StateCov_MI_input_ExpRating'), '6')
+WebUI.setText(findTestObject('Portal/Portal_StateCov_MI_input_ExpRating'), '4.76')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_StateCov_Button_NextLineCov'))
 
@@ -207,6 +207,14 @@ WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Head
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review')
 
+WebUI.mouseOver(findTestObject('Portal/Portal_Review_Button_SubmitToUnderwriting'))
+
+WebUI.click(findTestObject('Portal/Portal_Review_Button_SubmitToUnderwriting'))
+
+WebUI.verifyElementVisible(findTestObject('Portal/Portal_Popup_Label_QuoteConfirmation'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Portal/Portal_QuoteConfirmPopup_Button_OK'))
+
 WebUI.comment('User should be able to quote the submission in Portal')
 
 String SubmissionNumber = GlobalVariable.SubmissionNumber
@@ -228,6 +236,13 @@ WebUI.click(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_LeftPanel
 WebUI.verifyElementText(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_Label_Title'), 'Risk Analysis')
 
 WebUI.callTestCase(findTestCase('PolicyCenter_Pages/PC_CommonScreens/PC_RiskAnalysisScreen_ApproveUWIssues'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_Button_ReleaseLock'))
+
+WebUI.selectOptionByLabel(findTestObject('PolicyCenter/PolicyCenterObjects/PC_UWActivity_Dropdown_AssignTo'), 'Test Processor3 (Renewal Com Proc)', 
+    false)
+
+WebUI.click(findTestObject('PolicyCenter/PolicyCenterObjects/PC_UWActivity_Button_Release'))
 
 WebUI.takeFullPageScreenshot()
 
@@ -266,9 +281,9 @@ WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Head
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 9: Payment')
 
-WebUI.mouseOver(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_Monthly'))
+WebUI.mouseOver(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_FullPay'))
 
-WebUI.click(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_Monthly'))
+WebUI.click(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_FullPay'))
 
 WebUI.click(findTestObject('Portal/Portal_Payment_CheckBox_DeferDownPayment'))
 

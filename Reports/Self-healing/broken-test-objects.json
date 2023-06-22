@@ -49,6 +49,36 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal_ULP/Portal_Exposures_Select_Make_Autos_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Portal/Portal_Loc_WorkClassification_TypeList_0005",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u00270005 - Farm: Nursery Employees And Drivers\u0027]/parent::*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027react-select-19-option-0\u0027]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal/Portal_Loc_WorkClassification_TypeList_0005_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Portal/Portal_Loc_WorkClassification_TypeList_0005",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u00270005 - Farm: Nursery Employees And Drivers\u0027]/parent::*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next: State Coverages\u0027])[2]/following::div[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal/Portal_Loc_WorkClassification_TypeList_0005_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PolicyCenter_LogOut/span_PC_Menu_Button_Settings",
+      "brokenLocator": "//div[@id\u003d\u0027renewChangePaymentPlanCard\u0027]/div/div/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027gw-TabBarWidget--settings\u0027]/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PolicyCenter_LogOut/span_PC_Menu_Button_Settings_idRelative.png"
     }
   ]
 }
