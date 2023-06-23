@@ -4,69 +4,69 @@
    <name>HMIC-WC-PORTALS-E2E-TC002</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e68e758c-802b-403c-bbd4-144074b49032</testCaseGuid>
+   <testCaseGuid>918f9bdb-8b6f-46f4-87f7-d2914d462aa2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e4117f26-25c3-4666-b102-5d13772b2573</variableId>
+      <variableId>618afd7c-8e71-4029-a6b4-c4dc485c7585</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c5ae5d31-335e-4906-8287-4a57a3dd5108</variableId>
+      <variableId>aa609d97-e685-4ae6-808e-ab63adcf623e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8bdee713-6bf0-43b9-b42d-a031c865c2f8</variableId>
+      <variableId>e2d01f4e-004c-4e9b-ac69-3b9c01833ee9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d7071f75-8476-4e20-a29d-22d2c5961109</variableId>
+      <variableId>f927c328-eabd-47d8-8f19-dc009dd7b813</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>03d52d09-ccd1-4b4a-8b4c-aa268877ee4f</variableId>
+      <variableId>98206e40-4cb4-4ce5-b018-949984c8965a</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Portal_SmokeTest'</defaultValue>
       <description></description>
-      <id>e4117f26-25c3-4666-b102-5d13772b2573</id>
+      <id>618afd7c-8e71-4029-a6b4-c4dc485c7585</id>
       <masked>false</masked>
       <name>TCName</name>
    </variable>
    <variable>
-      <defaultValue>'testuwsup3'</defaultValue>
+      <defaultValue>'testproc1'</defaultValue>
       <description></description>
-      <id>c5ae5d31-335e-4906-8287-4a57a3dd5108</id>
+      <id>aa609d97-e685-4ae6-808e-ab63adcf623e</id>
       <masked>false</masked>
       <name>PC_Username</name>
    </variable>
    <variable>
       <defaultValue>'Guide123Wire'</defaultValue>
       <description></description>
-      <id>8bdee713-6bf0-43b9-b42d-a031c865c2f8</id>
+      <id>e2d01f4e-004c-4e9b-ac69-3b9c01833ee9</id>
       <masked>false</masked>
       <name>PC_Password</name>
    </variable>
    <variable>
       <defaultValue>'Michigan'</defaultValue>
       <description></description>
-      <id>d7071f75-8476-4e20-a29d-22d2c5961109</id>
+      <id>f927c328-eabd-47d8-8f19-dc009dd7b813</id>
       <masked>false</masked>
       <name>State</name>
    </variable>
    <variable>
       <defaultValue>'Workers Compensation'</defaultValue>
       <description></description>
-      <id>03d52d09-ccd1-4b4a-8b4c-aa268877ee4f</id>
+      <id>98206e40-4cb4-4ce5-b018-949984c8965a</id>
       <masked>false</masked>
       <name>LOB</name>
    </variable>

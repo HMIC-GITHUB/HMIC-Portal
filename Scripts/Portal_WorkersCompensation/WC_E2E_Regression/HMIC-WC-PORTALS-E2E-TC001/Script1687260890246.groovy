@@ -270,7 +270,31 @@ WebUI.mouseOver(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_Monthly'
 
 WebUI.click(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_Monthly'))
 
-WebUI.click(findTestObject('Portal/Portal_Payment_CheckBox_DeferDownPayment'))
+WebUI.click(findTestObject('Portal/Portal_Payment_btn_AddNewPaymentMethod'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCardNumber'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCardNumber'), '5499740000000057')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ExpDate'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ExpDate'), '01/30')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_CVV'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_CVV'), '231')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ZipCode'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ZipCode'), '49805')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_Button_CreditCard_SAVE'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.click(findTestObject('Portal/Portal_Payment_Select_CreditCard_SavedPaymentMethod'))
 
 WebUI.mouseOver(findTestObject('Portal/Portal_Payment_TextBox_AgentContactName'), FailureHandling.STOP_ON_FAILURE)
 
@@ -280,7 +304,13 @@ WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_AgentContactEmail'),
 
 WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_AgentPhoneNum'), '8567123411')
 
+WebUI.click(findTestObject('Portal/Portal_Payment_Select_CreditCard_SavedPaymentMethod'))
+
 WebUI.click(findTestObject('Portal/Portal_Payment_Button_Submit'))
+
+WebUI.click(findTestObject('Portal/Portal_Payment_btn_SubmitPayment_PlzConfirm_Popup'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_SubSuccess_Label_ApplicationIssued'), 'This application has been issued. Please contact your underwriter with questions.')
 

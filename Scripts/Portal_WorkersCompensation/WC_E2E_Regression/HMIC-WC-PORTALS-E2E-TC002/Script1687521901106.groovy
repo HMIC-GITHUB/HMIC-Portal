@@ -61,7 +61,7 @@ WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_La
         5))
 
 // + RandomStringUtils.randomAlphabetic(5)
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_ZipCode'), '49058')
+WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_ZipCode'), '54956')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_Button_CreateNewAcc'))
 
@@ -69,7 +69,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_AccInfo_
 
 WebUI.mouseOver(findTestObject('Object Repository/Portal/Portal_AccountInfo_Dropdown_ProducerCode'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_Address'), '1618 W M 43 Hwy')
+WebUI.setText(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_Address'), '955 N Mutual Way')
 
 WebUI.sendKeys(findTestObject('Object Repository/Portal/Portal_AccInfo_TextBox_Address'), Keys.chord(Keys.SPACE))
 
@@ -87,7 +87,7 @@ WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_TypeList_205
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_AccInfo_Button_AddAccount'))
 
-WebUI.click(findTestObject('Object Repository/Portal/Portal_StandardizeAddress_Button_Continue'))
+WebUI.click(findTestObject('Object Repository/Portal/Portal_StandardizeAddress_Button_Continue'), FailureHandling.OPTIONAL)
 
 GlobalVariable.AccountNumber = WebUI.getText(findTestObject('Portal/Portal_NewAccountCreated_Label_AccountNum'))
 
@@ -143,7 +143,7 @@ WebUI.click(findTestObject('Portal/Portal_StateCov_MI_Chkbox_ExpRating'))
 
 WebUI.click(findTestObject('Portal/Portal_StateCov_MI_input_ExpRating'))
 
-WebUI.setText(findTestObject('Portal/Portal_StateCov_MI_input_ExpRating'), '4.76')
+WebUI.setText(findTestObject('Portal/Portal_StateCov_MI_input_ExpRating'), '6')
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_StateCov_Button_NextLineCov'))
 
@@ -152,6 +152,10 @@ WebUI.comment('Adding Line Coverage')
 WebUI.click(findTestObject('Object Repository/Portal/Portal_LineCov_button_NextSupplementalQues'))
 
 WebUI.comment('SupplementalQuestions')
+
+WebUI.click(findTestObject('Portal/Portal_Supplemental_Checkbox_Aircraft'))
+
+WebUI.click(findTestObject('Portal/Portal_Supplemental_CheckBox_Above15feet'))
 
 WebUI.click(findTestObject('Object Repository/Portal/Portal_Supplemental_CheckBox_IhaveReviewed'))
 
@@ -197,7 +201,7 @@ WebUI.setText(findTestObject('Portal/Portal_AccInfo_TextBox_LastName'), 'Person'
 
 WebUI.setText(findTestObject('Portal/Portal_FirstCall_TextBox_EmailAddress'), 'ssomasundaram@hastingsmutual.com')
 
-WebUI.setText(findTestObject('Portal/Portal_AdditionalInfo_input_MI_BureauID'), '867567898')
+WebUI.setText(findTestObject('Portal/Portal_AdditionalInfo_input_WI_BureauID'), '867567898')
 
 WebUI.takeFullPageScreenshot()
 
@@ -206,14 +210,6 @@ WebUI.click(findTestObject('Portal/Portal_Common_Button_NextReview'))
 WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review', 10)
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 8: Review')
-
-WebUI.mouseOver(findTestObject('Portal/Portal_Review_Button_SubmitToUnderwriting'))
-
-WebUI.click(findTestObject('Portal/Portal_Review_Button_SubmitToUnderwriting'))
-
-WebUI.verifyElementVisible(findTestObject('Portal/Portal_Popup_Label_QuoteConfirmation'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Portal/Portal_QuoteConfirmPopup_Button_OK'))
 
 WebUI.comment('User should be able to quote the submission in Portal')
 
@@ -236,13 +232,6 @@ WebUI.click(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_LeftPanel
 WebUI.verifyElementText(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_Label_Title'), 'Risk Analysis')
 
 WebUI.callTestCase(findTestCase('PolicyCenter_Pages/PC_CommonScreens/PC_RiskAnalysisScreen_ApproveUWIssues'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('PolicyCenter/PolicyCenterObjects/PC_Common_Button_ReleaseLock'))
-
-WebUI.selectOptionByLabel(findTestObject('PolicyCenter/PolicyCenterObjects/PC_UWActivity_Dropdown_AssignTo'), 'Test Processor3 (Renewal Com Proc)', 
-    false)
-
-WebUI.click(findTestObject('PolicyCenter/PolicyCenterObjects/PC_UWActivity_Button_Release'))
 
 WebUI.takeFullPageScreenshot()
 
@@ -281,11 +270,35 @@ WebUI.waitForElementHasAttribute(findTestObject('Portal/Portal_Common_Label_Head
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_Common_Label_Header'), 'Step 9: Payment')
 
-WebUI.mouseOver(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_FullPay'))
+WebUI.mouseOver(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_Monthly'))
 
-WebUI.click(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_FullPay'))
+WebUI.click(findTestObject('Portal/Portal_Payment_PaymentPlan_Radio_Monthly'))
 
-WebUI.click(findTestObject('Portal/Portal_Payment_CheckBox_DeferDownPayment'))
+WebUI.click(findTestObject('Portal/Portal_Payment_btn_AddNewPaymentMethod'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCardNumber'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCardNumber'), '5499740000000057')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ExpDate'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ExpDate'), '01/30')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_CVV'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_CVV'), '231')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ZipCode'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_CreditCard_ZipCode'), '49805')
+
+WebUI.click(findTestObject('Portal/Portal_Payment_Button_CreditCard_SAVE'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.click(findTestObject('Portal/Portal_Payment_Select_CreditCard_SavedPaymentMethod'), FailureHandling.OPTIONAL)
 
 WebUI.mouseOver(findTestObject('Portal/Portal_Payment_TextBox_AgentContactName'), FailureHandling.STOP_ON_FAILURE)
 
@@ -295,7 +308,13 @@ WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_AgentContactEmail'),
 
 WebUI.setText(findTestObject('Portal/Portal_Payment_TextBox_AgentPhoneNum'), '8567123411')
 
+WebUI.click(findTestObject('Portal/Portal_Payment_Select_CreditCard_SavedPaymentMethod'))
+
 WebUI.click(findTestObject('Portal/Portal_Payment_Button_Submit'))
+
+WebUI.click(findTestObject('Portal/Portal_Payment_btn_SubmitPayment_PlzConfirm_Popup'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.verifyElementText(findTestObject('Portal/Portal_SubSuccess_Label_ApplicationIssued'), 'This application has been issued. Please contact your underwriter with questions.')
 
