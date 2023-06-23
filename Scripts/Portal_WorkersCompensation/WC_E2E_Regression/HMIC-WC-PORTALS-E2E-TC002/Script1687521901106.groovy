@@ -172,6 +172,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/Portal/Portal_Quote_He
 
 WebUI.verifyElementVisible(findTestObject('Portal/Portal_Quote_button_CreateNewVersion'))
 
+WebUI.click(findTestObject('Portal/Portal_Quote_button_CreateNewVersion'))
+
+WebUI.click(findTestObject('Portal/Portal_Quote_Button_Save_CreateNewVersion'))
+
+WebUI.getText(findTestObject('Portal/Portal_Quote_label_QuoteVersion'))
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Portal/Portal_Quote_Label_SubmissionNum'), 30)
 
 GlobalVariable.SubmissionNumber = WebUI.getText(findTestObject('Object Repository/Portal/Portal_Quote_Label_SubmissionNum'))
