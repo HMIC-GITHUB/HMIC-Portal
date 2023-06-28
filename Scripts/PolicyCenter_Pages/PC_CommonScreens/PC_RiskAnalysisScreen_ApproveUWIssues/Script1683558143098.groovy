@@ -32,7 +32,7 @@ if (TitleName.contains('Risk Analysis')) {
             WebUI.waitForElementVisible(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_Common_Button_OK'), 
                 30)
 
-            WebUI.click(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_Common_Button_OK'))
+            WebUI.click(findTestObject('Object Repository/PolicyCenter/PolicyCenterObjects/PC_RiskAnalysis_Button_OK'))
 
         }
     }

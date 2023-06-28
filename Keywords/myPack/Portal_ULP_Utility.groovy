@@ -157,7 +157,7 @@ public class Portal_ULP_Utility {
 		}
 
 	}
-	
+
 	@Keyword
 	def checkAntiqueAutoPremium(List<Integer> antiqueData) {
 
