@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='renewChangePaymentPlanCard']/div/div/div/div/span</value>
+         <value>//div[@id='gw-TabBarWidget--settings']/div/span</value>
       </entry>
       <entry>
          <key>CSS</key>

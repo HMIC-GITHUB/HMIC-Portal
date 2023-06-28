@@ -6,12 +6,12 @@
    <elementGuidId>17a3f97d-a564-4b36-99e0-55d0ec89abbf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.jut__LookupField__title</value>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-19-option-0']/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='0005 - Farm: Nursery Employees And Drivers']/parent::*</value>
+         <key>CSS</key>
+         <value>div.jut__LookupField__title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

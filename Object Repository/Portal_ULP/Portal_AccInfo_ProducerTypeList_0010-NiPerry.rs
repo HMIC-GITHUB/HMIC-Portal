@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = '0010-NiPerry 020590010NickPerry' or . = '0010-NiPerry 020590010NickPerry')]</value>
+         <value>//div[@id='producerPublicId-wrapper']/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>

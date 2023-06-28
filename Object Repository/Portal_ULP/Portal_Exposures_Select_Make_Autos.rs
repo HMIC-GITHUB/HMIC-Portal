@@ -10,11 +10,15 @@
          <value>//*/text()[normalize-space(.)='CHEVROLET']/parent::*</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'react-select-22-option-7' and (text() = 'CHEVROLET' or . = 'CHEVROLET')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#react-select-22-option-7</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
