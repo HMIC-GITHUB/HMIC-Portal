@@ -224,3 +224,8 @@ WebUI.takeFullPageScreenshot()
 
 GlobalVariable.PolicyNumber = WebUI.getText(findTestObject('Portal_ULP/Portal_SubSuccess_Label_PolicyNum'))
 
+WebUI.callTestCase(findTestCase('Portal_Pages/Portal_CommonScreens/Portal_SaveData'), [('State') : State, ('TCName') : TCName
+        , ('LOB') : LOB], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
+

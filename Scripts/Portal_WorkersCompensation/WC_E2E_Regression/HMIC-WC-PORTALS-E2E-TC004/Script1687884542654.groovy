@@ -207,7 +207,7 @@ WebUI.setText(findTestObject('Portal/Portal_AccInfo_TextBox_LastName'), 'Person'
 
 WebUI.setText(findTestObject('Portal/Portal_FirstCall_TextBox_EmailAddress'), 'ssomasundaram@hastingsmutual.com')
 
-WebUI.setText(findTestObject('Portal/Portal_AdditionalInfo_input_WI_BureauID'), '867567898')
+WebUI.setText(findTestObject('Portal/Portal_AdditionalInfo_input_IL_BureauID'), '867567898')
 
 WebUI.takeFullPageScreenshot()
 
