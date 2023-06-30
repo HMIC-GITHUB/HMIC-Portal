@@ -6,12 +6,12 @@
    <elementGuidId>47ee25f8-4eee-417b-aeb5-a091a0d1ff4f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.dynamicButton__button.jut__Button__button.jut__Button__primary.colorAccent > span > span</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::span[2]</value>
+         <key>CSS</key>
+         <value>button.dynamicButton__button.jut__Button__button.jut__Button__primary.colorAccent > span > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

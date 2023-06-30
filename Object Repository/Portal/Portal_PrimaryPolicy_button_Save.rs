@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(@class,'dynamicButton__button jut__Button__button jut__Button__secondary colorAccent')]</value>
+         <value>//div[@id='root']/div/div[6]/div/div/div[2]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/button/span/span</value>
       </entry>
       <entry>
          <key>CSS</key>

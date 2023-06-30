@@ -14,7 +14,7 @@
          <value>div.dynamicGenericSelectControl__singleValue.jut__GenericSelectControl__singleValue.css-1uccc91-singleValue</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
