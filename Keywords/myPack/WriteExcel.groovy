@@ -23,8 +23,13 @@ public class WriteExcel {
 	@Keyword
 	public void savePortalData(String currentDateAndTime, String tcName, String state, String lob, String accountNumber, String submissionNumber, String policyNumber, String ExecutionStatus, String pcURL, String portalURL) throws IOException{
 
-		WorkBookName = "PortalSmokeTest.xlsx"
-		println (WorkBookName)
+		if(lob.equals("PersonalUmbrella")) {
+			WorkBookName = "ULP_SmokeTest.xlsx"
+			println (WorkBookName)
+		} else if(lob.equals("Workers Compensation")) {
+			WorkBookName = "WC_SmokeTest.xlsx"
+			println (WorkBookName)
+		}
 
 		String testDataFileName = WorkBookName
 		TestData_Path = TestData_FolderPath+testDataFileName

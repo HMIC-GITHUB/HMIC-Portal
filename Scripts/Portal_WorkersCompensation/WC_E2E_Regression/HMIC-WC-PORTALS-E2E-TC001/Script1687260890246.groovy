@@ -294,7 +294,7 @@ WebUI.click(findTestObject('Portal/Portal_Payment_Button_CreditCard_SAVE'))
 
 WebUI.waitForPageLoad(20)
 
-WebUI.click(findTestObject('Portal/Portal_Payment_Select_CreditCard_SavedPaymentMethod'))
+WebUI.click(findTestObject('Portal/Portal_Payment_Select_CreditCard_SavedPaymentMethod'), FailureHandling.OPTIONAL)
 
 WebUI.mouseOver(findTestObject('Portal/Portal_Payment_TextBox_AgentContactName'), FailureHandling.STOP_ON_FAILURE)
 
