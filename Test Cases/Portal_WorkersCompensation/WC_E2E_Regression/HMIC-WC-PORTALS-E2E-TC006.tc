@@ -36,7 +36,7 @@
       <variableId>842b8a4c-6e5f-4b1d-9a94-27d45ed50dab</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Portal_SmokeTest\r\n'</defaultValue>
+      <defaultValue>'HMIC-WC-PORTALS-E2E-TC006'</defaultValue>
       <description></description>
       <id>dd8fcc1b-7d14-47fd-b630-946a8820ffce</id>
       <masked>false</masked>

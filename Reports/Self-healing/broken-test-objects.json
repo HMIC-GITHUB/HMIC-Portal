@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Portal/Portal_Loc_WorkClassification_TypeList_0005",
+      "brokenLocator": "//div[@id\u003d\u0027react-select-19-option-0\u0027]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next: State Coverages\u0027])[2]/following::div[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Portal/Portal_Loc_WorkClassification_TypeList_0005_neighbor.png"
+    }
+  ]
 }
